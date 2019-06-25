@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="...">
+    <meta name="keywords" content="...">
+    <meta name="author" content="...">
+    <title>Document</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
+    <!--OWL-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--ToTop-->
+    <button class="toTop" onclick="topFunction()" id="toTop"><i class="fas fa-chevron-up"></i></button>
+    <!--End ToTop-->
+
+    <!--Header-->
+    <header class="top">
+        <div class="container">
+            <div class="row">
+                <ul class="languages">
+                    <li>
+                        <a href="#">
+                            <img src="images/ru.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ua.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="location">
+                    <li>
+                        <img src="images/loc.png" alt="">
+                    </li>
+                    <li>
+                        г. Черкассы, ул. 30 лет Победы 23
+                    </li>
+                </ul>
+                <ul class="phones">
+                    <li>
+                        <img src="images/phone.png" alt="">
+                    </li>
+                    <li>
+                        +38 (0472) 65-71-78, +38 (067) 472-09-00
+                    </li>
+                </ul>
+                <ul class="mail">
+                    <li>
+                        <img src="images/mail.png" alt="">
+                    </li>
+                    <li>
+                        <a href="mailto:shop@autofurnitura.com">shop@autofurnitura.com</a>
+                    </li>
+                </ul>
+                <button class="opt">Оптовому покупателю</button>
+                <ul class="my_cart">
+                    <li>
+                        <a href="#">
+                            <img class="cart" src="images/cart.png" alt="">
+                            <span class="badge">16</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="result">15280,00 грн</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <header class="menu">
+        <a href="#" class="logo">
+            <img src="images/mainlogo.png" alt="">
+        </a>
+        <nav role="navigation">
+            <a href="javascript:void(0);" class="ic menu" tabindex="1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </a>
+            <a href="javascript:void(0);" class="ic close"></a>
+            <ul class="main-nav">
+                <li class="top-level-link">
+                    <a><span>Главная</span></a>      
+                </li> 
+                <li class="top-level-link">
+                    <a class="mega-menu"><span>Каталог продукции</span></a>
+                    <div class="sub-menu-block">
+                        <div class="row">
+                            <div>
+                                <h2 class="sub-menu-head">Тайтл категории</h2>
+                                <ul class="sub-menu-lists">
+                                    <li><a>Ящики. рукомойники</a></li>
+                                    <li><a>Фиксаторы двери</a></li>
+                                    <li><a>Тентовая фурнитура</a></li>
+                                    <li><a>Светотехника</a></li>
+                                    <li><a>Замки</a></li>
+                                </ul>           
+                            </div>
+                            <div>
+                                <h2 class="sub-menu-head">Тайтл категории</h2>
+                                <ul class="sub-menu-lists">
+                                    <li><a>Пластиковые крылья</a></li>
+                                    <li><a>Боковая защита</a></li>
+                                    <li><a>Уплотнитель дверной</a></li>
+                                    <li><a>Светоотражающая лента</a></li>
+                                    <li><a>Детали тормозной системы</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="sub-menu-head">Тайтл категории</h2>
+                                <ul class="sub-menu-lists">
+                                    <li><a>Петли</a></li>
+                                    <li><a>Лестницы</a></li>
+                                    <li><a>Отбойники резиновые</a></li>
+                                    <li><a>Информационные таблицы</a></li>
+                                    <li><a>Ремкомплекты устройств сцепки</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="sub-menu-head">Тайтл категории</h2>
+                                <ul class="sub-menu-lists">
+                                    <li><a>Запорные устройства</a></li>
+                                    <li><a>Бортовая фурнитура</a></li>
+                                    <li><a>Элементы фиксации груза</a></li>
+                                    <li><a>Контейнерная фурнитура</a></li>
+                                    <li><a>Детали подвески, ходовой, кабины водителя</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="top-level-link">
+                    <a><span>Акции<span></a>    
+                </li>
+                <li class="top-level-link">
+                    <a class="mega-menu"><span>Производители</span></a>
+                    <div class="sub-menu-block">
+                        <div class="row">
+                            <div>
+                                <ul class="sub-menu-lists brands">
+                                    <li><a>
+                                        <img src="images/partners/logo1-170x60.png" alt="">
+                                    </a></li>
+                                    <li><a>
+                                        <img src="images/partners/logo10-170x60.png" alt="">
+                                    </a></li>
+                                    <li><a>
+                                        <img src="images/partners/logo12-170x60.png" alt="">
+                                    </a></li>
+                                    <li><a>
+                                        <img src="images/partners/logo15-170x60.png" alt="">
+                                    </a></li>
+                                </ul>           
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="top-level-link">
+                    <a><span>Новости</span></a>
+                </li>
+                <li class="top-level-link">
+                    <a><span>Контакты</span></a>      
+                </li>
+                <li class="top-level-link">
+                    <a><span>О компании</span></a>      
+                </li> 
+            </ul> 
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Введите название товара">
+            <button>Поиск</button>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Main Ctatalogue-->
+    <section class="main_catalogue">
+        <div class="container">
+            <div class="row main_title">
+                <h2>Каталог <span class="blue">Продукции</span></h2>
+            </div>
+            <div class="row categories">
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat1.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Ящики, рукомойники</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat2.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Пластиковые крылья</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat3.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Элементы фиксации груза</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat4.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Фиксаторы двери</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat5.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Запорные устройства</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat6.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Замки</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat7.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Петли</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat8.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Бортовая фурнитура</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat9.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Тентовая фурнитура</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat10.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Боковая защита</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat11.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Лестницы</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat12.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Уплотнитель дверной</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat13.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Отбойники резиновые</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat14.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Контейнерная фурнитура</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat15.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Светотехника</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat16.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Светоотражающая лента</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat17.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Информационные таблицы</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat18.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Ремкомплекты устройств</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat19.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Детали тормозной системы</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat20.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Детали подвески, ходовой, кабины водителя</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat21.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Подвеска двигателя, трансмиссии</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category_block">
+                    <a href="#" class="block">
+                        <div class="category_img">
+                            <img src="images/cat21.png" alt="">
+                        </div>
+                        <div class="category_title">
+                            <h3>Детали системы выхлопа, охлаждения, сцепления</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Main Ctatalogue-->
+
+    <!--Our Brands-->
+    <section class="our_brands">
+        <div class="container">
+            <div class="row brands_title">
+                <h2>Наши <span class="blue">Производители</span></h2>
+            </div>
+            <div class="row">
+                <p class="slogan">
+                    Сотрудничаем только с проверенными поставщиками
+                </p>
+                <div class="owl-carousel owl-theme brandsSlider">
+                    <div class="item">
+                        <img src="images/logo1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo4.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo5.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Brands-->
+
+    <!--Our News-->
+    <section class="our_news">
+        <div class="container">
+            <div class="row news_title">
+                <h2>Новости <span class="blue">Компании</span></h2>
+            </div>
+            <div class="row news">
+                <p class="slogan">
+                    Комтранс 2005 - ведущий производитель и импортёр комплектующих изделий и<br>запасных частей для грузовых автомобильных фургонов, прицепов и полуприцепов.
+                </p>
+                <div class="news_block">
+                    <div class="nb_title">
+                        <a href="#">
+                            <h3>
+                                Обновление товара на складе: Итальянское качество Danken
+                            </h3>
+                        </a>
+                    </div>
+                    <div class="nb_text">
+                        <p>
+                            Ящик Инструментальный DAKEN. DAKEN - одни из ведущих производителей пластиковых аксессуаров для коммерческих автомобилей.
+                            Благодаря постоянному вниманию к потребностям водителей, DAKEN создает широкий спектр продуктов, чтоб удовлетворить все потребности рынка. 
+                        </p>
+                    </div>
+                    <div class="date">
+                        <time pubdate="">27 иая, 2015</time>
+                    </div>
+                    <div class="goto_news">
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div class="news_block">
+                    <div class="nb_title">
+                        <a href="#">
+                            <h3>
+                                Обновление товара на складе: Итальянское качество Danken
+                            </h3>
+                        </a>
+                    </div>
+                    <div class="nb_text">
+                        <p>
+                            Ящик Инструментальный DAKEN. DAKEN - одни из ведущих производителей пластиковых аксессуаров для коммерческих автомобилей.
+                            Благодаря постоянному вниманию к потребностям водителей, DAKEN создает широкий спектр продуктов, чтоб удовлетворить все потребности рынка. 
+                        </p>
+                    </div>
+                    <div class="date">
+                        <time pubdate="">27 иая, 2015</time>
+                    </div>
+                    <div class="goto_news">
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+                <div class="news_block">
+                    <div class="nb_title">
+                        <a href="#">
+                            <h3>
+                                Обновление товара на складе: Итальянское качество Danken
+                            </h3>
+                        </a>
+                    </div>
+                    <div class="nb_text">
+                        <p>
+                            Ящик Инструментальный DAKEN. DAKEN - одни из ведущих производителей пластиковых аксессуаров для коммерческих автомобилей.
+                            Благодаря постоянному вниманию к потребностям водителей, DAKEN создает широкий спектр продуктов, чтоб удовлетворить все потребности рынка. 
+                        </p>
+                    </div>
+                    <div class="date">
+                        <time pubdate="">27 иая, 2015</time>
+                    </div>
+                    <div class="goto_news">
+                        <button>Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our News-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>О компании</h4>
+                    </div>
+                    <div class="fb_text">
+                        <p>
+                            Производитель комплектующих и запчастей для грузовых автомобильных фургонов
+                        </p>
+                    </div>
+                    <div class="fb_content">
+                        <ul class="contacts">
+                            <li>
+                                <img src="images/locblue.png" alt=""> г. Черкассы, ул. 30 лет Победы 23
+                            </li>
+                            <li>
+                                <img src="images/phoneblue.png" alt=""> +38 (0472) 65-71-78, +38 (067) 472-09-00
+                            </li>
+                            <li>
+                                <img src="images/mail.png" alt=""> <a href="http://shop@autofurnitura.com">shop@autofurnitura.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Подписаться</h4>
+                    </div>
+                    <div class="fb_text">
+                        <p>
+                            Подписывайте на рассылку самых важных новостей компании. Будьте в курсе! 
+                        </p>
+                    </div>
+                    <div class="fb_content">
+                        <form>
+                            <input type="text" placeholder="Имя">
+                            <input type="email" placeholder="Электронная почта">
+                            <button>Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Новости компании</h4>
+                    </div>
+                    <div class="fb_content">
+                        <div class="fb_news">
+                            <a href="#">
+                                Автофурнитура к полуприцепам
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fb_news">
+                            <a href="#">
+                                Уплотнительный профиль для дверей фургонов, полуприцепов и рефрижераторов.
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fb_news">
+                            <a href="#">
+                                Новое поступление ремней стяжных с храповым механизмом Wistra.
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Главное меню</h4>
+                    </div>
+                    <div class="fb_content">
+                        <div class="fb_menu">
+                            <ul>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Главная</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Каталог продукции</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Акции</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Производители</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Новости</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">О компании</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="copyright">Комтранс © Copyright 2019.  Разработано компанией SFdevelop</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Foote-->
+
+    <!--Scripts-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
