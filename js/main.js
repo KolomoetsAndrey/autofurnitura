@@ -1,3 +1,40 @@
+// MainSlider
+$(document).ready(function(){
+    $('.mainSlider').owlCarousel({
+        loop: true,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        dotsContainer: '.mainSliderCustomDots',
+        autoplay: true,
+        autoplayTimeout: 10000,
+        center: true,
+        margin: 10,
+        dots: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            500:{
+                items:1
+            },
+            900:{
+                items:1
+            },
+            1200:{
+                items:1
+            }
+        }
+    });
+
+    var mainSliderDots = $('.mainSlider');
+        mainSliderDots.owlCarousel();
+
+        $('.owl-dot').click(function () {
+            mainSliderDots.trigger('to.owl.carousel', [$(this).index(), 300]);
+        });
+});
+// End MainSlider
+
 //Main Menu
 (function ( $, window, document, undefined ) {
 
@@ -242,8 +279,5 @@ $(document).ready(function(){
             }
         }
     });
-
-    var brandsSlider = $('.brandsSlider');
-        brandsSlider.owlCarousel();
-    });
+});
 //End Brands Slider

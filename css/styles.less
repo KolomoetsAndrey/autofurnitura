@@ -361,6 +361,61 @@ ul.main-nav > li ul.sub-menu-lists > li > a {
     }
 }
 
+.mainslider {
+    margin-bottom: 65px;
+    margin-top: 15px;
+    position: relative;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+
+        .slider_desc {
+            position: absolute;
+            padding: 0 310px;
+
+            .slider_name {
+                margin-bottom: 15px;
+                font-size: 70px;
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+    
+            .slider_text {
+                font-size: 49px;
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .mainSliderDots {
+        text-align: center;
+        position: absolute;
+        bottom: 1%;
+        width: 100%;
+        z-index: 100;
+        
+        .owl-dot {
+            margin: 20px;
+            height: 15px;
+            width: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 100%;
+            background: transparent;
+            display: inline-block;
+            cursor: pointer;
+
+            &.active {
+                background: #ffffff;
+            }
+        }
+    }
+}
+
 .main_catalogue {
     .main_title {
         justify-content: center;
