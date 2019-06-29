@@ -8,6 +8,8 @@
     <meta name="keywords" content="...">
     <meta name="author" content="...">
     <title>Document</title>
+    <!--FonAwesome-->
+    <script src="https://kit.fontawesome.com/19587f464c.js"></script>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
     <!--OWL-->
@@ -78,105 +80,223 @@
         </div>
     </header>
 
-    <header class="menu">
+    <header class="menu" id="menu">
         <a href="#" class="logo">
             <img src="images/mainlogo.png" alt="">
         </a>
-        <nav role="navigation">
-            <a href="javascript:void(0);" class="ic menu" tabindex="1">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </a>
-            <a href="javascript:void(0);" class="ic close"></a>
-            <ul class="main-nav">
-                <li class="top-level-link">
-                    <a><span>Главная</span></a>      
-                </li> 
-                <li class="top-level-link">
-                    <a class="mega-menu"><span>Каталог продукции</span></a>
-                    <div class="sub-menu-block">
-                        <div class="row">
-                            <div>
-                                <h2 class="sub-menu-head">Тайтл категории</h2>
-                                <ul class="sub-menu-lists">
-                                    <li><a>Ящики. рукомойники</a></li>
-                                    <li><a>Фиксаторы двери</a></li>
-                                    <li><a>Тентовая фурнитура</a></li>
-                                    <li><a>Светотехника</a></li>
-                                    <li><a>Замки</a></li>
-                                </ul>           
-                            </div>
-                            <div>
-                                <h2 class="sub-menu-head">Тайтл категории</h2>
-                                <ul class="sub-menu-lists">
-                                    <li><a>Пластиковые крылья</a></li>
-                                    <li><a>Боковая защита</a></li>
-                                    <li><a>Уплотнитель дверной</a></li>
-                                    <li><a>Светоотражающая лента</a></li>
-                                    <li><a>Детали тормозной системы</a></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h2 class="sub-menu-head">Тайтл категории</h2>
-                                <ul class="sub-menu-lists">
-                                    <li><a>Петли</a></li>
-                                    <li><a>Лестницы</a></li>
-                                    <li><a>Отбойники резиновые</a></li>
-                                    <li><a>Информационные таблицы</a></li>
-                                    <li><a>Ремкомплекты устройств сцепки</a></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h2 class="sub-menu-head">Тайтл категории</h2>
-                                <ul class="sub-menu-lists">
-                                    <li><a>Запорные устройства</a></li>
-                                    <li><a>Бортовая фурнитура</a></li>
-                                    <li><a>Элементы фиксации груза</a></li>
-                                    <li><a>Контейнерная фурнитура</a></li>
-                                    <li><a>Детали подвески, ходовой, кабины водителя</a></li>
-                                </ul>
-                            </div>
-                        </div>
+        <div class="display_nav">
+            <nav class="topnav" id="navigation">
+                <a href="index.html" class="navlink active">Главная</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Каталог продукции
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Ящики, рукомойники</a></li>
+                            <li><a href="#" class="sublink">Фиксаторы двери</a></li>
+                            <li><a href="#" class="sublink">Тентовая фурнитура</a></li>
+                            <li><a href="#" class="sublink">Светотехника</a></li>
+                            <li><a href="#" class="sublink">Замки</a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Пластиковые крылья</a></li>
+                            <li><a href="#" class="sublink">Боковая защита</a></li>
+                            <li><a href="#" class="sublink">Уплотнитель дверной</a></li>
+                            <li><a href="#" class="sublink">Светоотражающая лента</a></li>
+                            <li><a href="#" class="sublink">Детали тормозной системы</a></li>
+                        </ul>
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Петли</a></li>
+                            <li><a href="#" class="sublink">Лестницы</a></li>
+                            <li><a href="#" class="sublink">Отбойники резиновые</a></li>
+                            <li><a href="#" class="sublink">Информационные таблицы</a></li>
+                            <li><a href="#" class="sublink">Ремкомплекты устройств сцепки</a></li>
+                        </ul>
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Запорные устройства</a></li>
+                            <li><a href="#" class="sublink">Бортовая фурнитура</a></li>
+                            <li><a href="#" class="sublink">Элементы фиксации груза</a></li>
+                            <li><a href="#" class="sublink">Контейнерная фурнитура</a></li>
+                            <li><a href="#" class="sublink">Детали подвески, ходовой, кабины водителя</a></li>
+                        </ul>
                     </div>
-                </li>
-                <li class="top-level-link">
-                    <a><span>Акции<span></a>    
-                </li>
-                <li class="top-level-link">
-                    <a class="mega-menu"><span>Производители</span></a>
-                    <div class="sub-menu-block">
-                        <div class="row">
-                            <div>
-                                <ul class="sub-menu-lists brands">
-                                    <li><a>
-                                        <img src="images/partners/logo1-170x60.png" alt="">
-                                    </a></li>
-                                    <li><a>
-                                        <img src="images/partners/logo10-170x60.png" alt="">
-                                    </a></li>
-                                    <li><a>
-                                        <img src="images/partners/logo12-170x60.png" alt="">
-                                    </a></li>
-                                    <li><a>
-                                        <img src="images/partners/logo15-170x60.png" alt="">
-                                    </a></li>
-                                </ul>           
-                            </div>
-                        </div>
+                </div>
+                <a href="#" class="navlink">Акции</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Производители
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/1.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/2.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/3.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/4.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/5.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/6.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/7.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/8.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/9.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/10.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/11.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/12.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/13.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/14.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/15.png" alt="">
+                            </a></li>
+                        </ul> 
                     </div>
-                </li>
-                <li class="top-level-link">
-                    <a><span>Новости</span></a>
-                </li>
-                <li class="top-level-link">
-                    <a><span>Контакты</span></a>      
-                </li>
-                <li class="top-level-link">
-                    <a><span>О компании</span></a>      
-                </li> 
-            </ul> 
-        </nav>
+                </div>
+                <a href="#" class="navlink">Новости</a>
+                <a href="#" class="navlink">Контакты</a>
+                <a href="#" class="navlink">О компании</a>
+            </nav>
+        </div>
+        <div class="mobile_nav">
+             <div class="hamburger">
+                <button class="openbtn" onclick="openNav()">
+                    <img src="images/hamburger.png" alt="" class="hamb">
+                </button> 
+            </div>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="the_menu" href="index.html">Главная</a>
+                <a class="the_menu collapsible">Каталог продукции</a>
+                <div class="content">
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Ящики, рукомойники</a></li>
+                        <li><a href="#" class="sublink">Фиксаторы двери</a></li>
+                        <li><a href="#" class="sublink">Тентовая фурнитура</a></li>
+                        <li><a href="#" class="sublink">Светотехника</a></li>
+                        <li><a href="#" class="sublink">Замки</a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Пластиковые крылья</a></li>
+                        <li><a href="#" class="sublink">Боковая защита</a></li>
+                        <li><a href="#" class="sublink">Уплотнитель дверной</a></li>
+                        <li><a href="#" class="sublink">Светоотражающая лента</a></li>
+                        <li><a href="#" class="sublink">Детали тормозной системы</a></li>
+                    </ul>
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Петли</a></li>
+                        <li><a href="#" class="sublink">Лестницы</a></li>
+                        <li><a href="#" class="sublink">Отбойники резиновые</a></li>
+                        <li><a href="#" class="sublink">Информационные таблицы</a></li>
+                        <li><a href="#" class="sublink">Ремкомплекты устройств сцепки</a></li>
+                    </ul>
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Запорные устройства</a></li>
+                        <li><a href="#" class="sublink">Бортовая фурнитура</a></li>
+                        <li><a href="#" class="sublink">Элементы фиксации груза</a></li>
+                        <li><a href="#" class="sublink">Контейнерная фурнитура</a></li>
+                        <li><a href="#" class="sublink">Детали подвески, ходовой, кабины водителя</a></li>
+                    </ul>
+                </div>
+                <a class="the_menu" href="#">Акции</a>
+                <a class="the_menu collapsible">Производители</a>
+                <div class="content">
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/1.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/2.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/3.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/4.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/5.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/6.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/7.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/8.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/9.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/10.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/11.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/12.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/13.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/14.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/15.png" alt="">
+                        </a></li>
+                    </ul> 
+                </div>
+                <a class="the_menu" href="#">Новости</a>
+                <a class="the_menu" href="#">Контакты</a>
+                <a class="the_menu" href="#">О компании</a>
+            </div>
+            <div class="searching">
+                <img src="images/search.png" alt="">
+            </div>
+        </div>
         <div class="search">
             <input type="text" placeholder="Введите название товара">
             <button>Поиск</button>
