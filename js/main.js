@@ -110,3 +110,36 @@ $(document).ready(function(){
     });
 });
 //End Brands Slider
+
+// Searching
+$(document).ready(function() {
+    $(".searching button").click(function() {
+        $(".searching input[type='text']").toggleClass(" search_onclick");
+        $(".hamburger").toggleClass(" no_hamburger");
+        $(".searching").toggleClass(" search_open")
+    });
+});
+//End Searching
+
+//Liked
+$(function() {
+    $( "i" ).click(function() {
+      $( "i" ).toggleClass( "press", 1000 );
+    });
+});
+//End Liked
+
+// Tabs
+$("document").ready(function(){
+    $(".tab-slider--body").hide();
+    $(".tab-slider--body:first").show();
+});
+  
+$(".tab-slider--nav li").click(function() {
+    $(".tab-slider--body").hide();
+    var activeTab = $(this).attr("rel");
+    $("#"+activeTab).fadeIn();
+    $(".tab-slider--nav li").removeClass("active");
+    $(this).addClass("active");
+});
+// End Tabs
