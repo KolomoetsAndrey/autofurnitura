@@ -693,6 +693,73 @@ button:focus {
                 }
             }
         }
+
+        .login_info {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px 0;
+            border: 1px solid #777777;
+            margin-bottom: 20px;
+
+            .login_info_img {
+                padding: 15px;
+                border: none;
+                border-radius: 100%;
+                background: #abc9ff;
+                width: 40px;
+                height: auto;
+            }
+
+            ul {
+                li {
+                    .hello {
+                        font-size: 14px;
+
+                        .loginname {
+                            display: block;
+                        }
+                    }
+
+                    button.logout {
+                        margin-top: 5px;
+                        border: 1px solid #31AAE2;
+                        color: #ffffff;
+                        background: #31AAE2;
+                        font-size: 14px;
+                        padding: 5px 10px;
+                        font-family: @condensed;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            color: #31AAE2;
+                            background: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        a.personal_cab_btn {
+            border: 1px solid #777777;
+            padding: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+            color: #31AAE2;
+            background: #ffffff;
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            text-decoration: none;
+
+            &.active {
+                color: #ffffff;
+                background: #31AAE2;
+                border: 1px solid #31AAE2;
+            }
+        }
     }
 
     .right_column {
@@ -2020,6 +2087,193 @@ button:focus {
                             &:hover {
                                 background: #ffffff;
                                 color: #31AAE2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .personal_cab, .change_pass, .manager, .favorites {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 20px;
+
+            .pc_cont_text {
+                font-size: 25px;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+
+            form.pc_contact_info {
+                width: 100%;
+
+                .row {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                .flex-between {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .flex-right {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+                .infoblock {
+                    display: flex;
+                    flex-direction: column;
+                    width: 47%;
+                    margin-bottom: 10px;
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    input {
+                        padding: 5px 10px;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                .infoblock.third {
+                    width: 31%;
+                }
+
+                button.save {
+                    color: #ffffff;
+                    border: 1px solid #31AAE2;
+                    background: #31AAE2;
+                    padding: 5px 30px;
+                    margin-right: 20px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    font-family: @condensed;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        background: #ffffff;
+                        color: #31AAE2;
+                    }
+                }
+
+                button.cancel {
+                    color: #31AAE2;
+                    border: 1px solid #31AAE2;
+                    background: #ffffff;
+                    padding: 5px 30px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    font-family: @condensed;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        background: #31AAE2;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .item_card {
+                .col();
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                margin: 5px;
+                border: 1px solid #cccccc;
+                background: #ffffff;
+                margin-bottom: 20px;
+    
+                img {
+                    width: 250px;
+                    height: auto;
+                }
+    
+                .item_desc {
+                    margin-top: auto;
+    
+                    .item_name {
+                        text-align: center;
+                        margin-bottom: 10px;
+    
+                        a {
+                            font-size: 18px;
+                            color: #2E3537;
+                            text-decoration: none;
+    
+                            &:hover {
+                                color: #31AAE2;
+                            }
+                        }
+                    }
+    
+                    .item_vars {
+                        .var {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-top: 1px solid #cccccc;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            width: 100%;
+    
+                            .var_name {
+                                font-size: 18px;
+                                color: #2E3537;
+                                font-weight: 600;
+                            }
+    
+                            .available {
+                                font-size: 18px;
+                                color: #777777;
+                            }
+    
+                            .sku {
+                                font-size: 16px;
+                                color: #777777;
+                                font-weight: 600;
+                            }
+    
+                            .price {
+                                color: #31AAE2;
+                                font-size: 20px;
+                                font-weight: 600;
+    
+                                .old_price {
+                                    display: block;
+                                    font-size: 14px;
+                                    text-decoration: line-through;
+                                    color: #777777;
+                                    font-weight: normal;
+                                }
+                            }
+    
+                            button {
+                                color: #ffffff;
+                                background: #31AAE2;
+                                border: 1px solid #31AAE2;
+                                height: 50px;
+                                cursor: pointer;
+                                font-family: @condensed;
+                                font-weight: 600;
+                                transition: all 0.5s;
+    
+                                &:hover {
+                                    background: #23ce30;
+                                }
+    
+                                img {
+                                    width: 20px;
+                                    height: auto;
+                                }
+    
+                                p {
+                                    color: #ffffff;
+                                }
                             }
                         }
                     }
