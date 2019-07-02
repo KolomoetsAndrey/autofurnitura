@@ -821,6 +821,14 @@ button:focus {
                             background: #31AAE2;
                             border: 1px solid #31AAE2;
                             height: 50px;
+                            cursor: pointer;
+                            font-family: @condensed;
+                            font-weight: 600;
+                            transition: all 0.5s;
+
+                            &:hover {
+                                background: #23ce30;
+                            }
 
                             img {
                                 width: 20px;
@@ -1543,6 +1551,163 @@ button:focus {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.brand_information {
+    .brand_description {
+        font-size: 14px;
+        color: #777777;
+        margin-bottom: 40px;
+
+        img {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 360px;
+        }
+    }
+
+    .item_card {
+        .col();
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #cccccc;
+        background: #ffffff;
+        margin-bottom: 20px;
+
+        img {
+            width: 250px;
+            height: auto;
+        }
+
+        .item_desc {
+            margin-top: auto;
+
+            .item_name {
+                text-align: center;
+                margin-bottom: 10px;
+
+                a {
+                    font-size: 18px;
+                    color: #2E3537;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #31AAE2;
+                    }
+                }
+            }
+
+            .item_vars {
+                .var {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-top: 1px solid #cccccc;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    width: 100%;
+
+                    .var_name {
+                        font-size: 18px;
+                        color: #2E3537;
+                        font-weight: 600;
+                    }
+
+                    .available {
+                        font-size: 18px;
+                        color: #777777;
+                    }
+
+                    .sku {
+                        font-size: 16px;
+                        color: #777777;
+                        font-weight: 600;
+                    }
+
+                    .price {
+                        color: #31AAE2;
+                        font-size: 20px;
+                        font-weight: 600;
+
+                        .old_price {
+                            display: block;
+                            font-size: 14px;
+                            text-decoration: line-through;
+                            color: #777777;
+                            font-weight: normal;
+                        }
+                    }
+
+                    button {
+                        color: #ffffff;
+                        background: #31AAE2;
+                        border: 1px solid #31AAE2;
+                        height: 50px;
+                        cursor: pointer;
+                        font-family: @condensed;
+                        font-weight: 600;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            background: #23ce30;
+                        }
+
+                        img {
+                            width: 20px;
+                            height: auto;
+                        }
+
+                        p {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {
+        margin-top: 25px;
+
+        .pagi {
+            color: #777777;
+            font-size: 18px;
+            background: #ffffff;
+            border: 1px solid #777777;
+            border-radius: 10px;
+            float: left;
+            padding: 10px 16px;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: all 0.5s;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+                height: auto;
+            }
+
+            &.active {
+                color: #31AAE2;
+            }
+
+            &:hover {
+                background: #31AAE2;
+                color: #ffffff;
+                border: 1px solid #31AAE2;
             }
         }
     }
