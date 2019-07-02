@@ -2094,7 +2094,7 @@ button:focus {
             }
         }
 
-        .personal_cab, .change_pass, .manager, .favorites {
+        .order_history, .personal_cab, .change_pass, .manager, .favorites {
             padding-left: 20px;
             padding-right: 20px;
             margin-bottom: 20px;
@@ -2103,6 +2103,33 @@ button:focus {
                 font-size: 25px;
                 margin-bottom: 30px;
                 font-weight: 600;
+            }
+
+            .order_history_info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #31AAE2;
+                margin-bottom: 15px;
+
+                p {
+                    color: #777777;
+                    font-size: 18px;
+                    width: 23%;
+                }
+
+                a {
+                    font-size: 18px;
+                    color: #CCCCCC;
+                    transition: all 0.5s;
+                    width: 10%;
+                    text-align: right;
+
+                    &:hover {
+                        color: #31AAE2;
+                    }
+                }
             }
 
             form.pc_contact_info {
