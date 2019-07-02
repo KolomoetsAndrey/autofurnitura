@@ -1548,6 +1548,58 @@ button:focus {
     }
 }
 
+.ourbrands {
+    .ourbrands_text {
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: #777777;
+    }
+
+    .brands_block {
+        .col();
+        .size(3);
+
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid #777777;
+        background: #ffffff;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 20px;
+
+        a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 110px;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            transition: all 0.8s;
+            opacity: 0;
+            background: #31AAE2;
+            background-size: 100% 100%;
+        }
+
+        &:hover:before {
+            opacity: 0.4;
+        }
+    }
+}
+
 
 .our_news {
     .news_title {
