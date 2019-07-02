@@ -1136,52 +1136,53 @@ button:focus {
 .items .right_column .infotabs .tab-slider--container {
   padding-top: 70px;
 }
-.items .right_column .infotabs .tab-slider--body {
-  padding: 20px;
+.items .right_column .infotabs .tab-slider--body .internal_body {
   border: 1px solid #777777;
+  padding: 20px;
+  background: #ffffff;
 }
-.items .right_column .infotabs .testimonial {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial {
   border-bottom: 1px solid #31AAE2;
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
-.items .right_column .infotabs .testimonial form .stars {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars {
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABaCAYAAACv+ebYAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDcvMDMvMTNJ3Rb7AAACnklEQVRoge2XwW3bMBSGPxa9NxtIGzTAW8DdRL7o3A0qb+BrdNIm9QAm0G7gbJBMwB5MoVJNUSRFIXGqHwhkmXr68hOPNH9ljOEt9OlNqBs4RlrrSmtdpdZ/Ti0EGnvtUoqTHFunBVCkuk6d6mbi83rggdteSa5THDeB3+UDO9z2inatXFum1roESuAReAB29vp15n2/gRfgZK+/gIuIXLxgrfUO+Bnzn0fom4ic+pvRVNuB/QrQ/RB6A7bwLjN8b985krO5MsKd0ElwJvgk1AteCPdCYWI5/SutddQxRUTU3DOzG4hd01EKqQnZuaLBITUh4F0CeLYm5CDw6PjuFTjaz9+BLwE1I8VO9StwAEoRaUSkseMHO+aqcWq2qwcdfQCOIvIy8dwDV/c/YL6zvWDbnQ3QuH5hltQEreM1dH/n6g28gT8eWLVUqqVKrb+vtGidFkCR6vp+0uLAba8k1/eRFh1ue0W7dv4sqpaSjGnR1Fy8YNWyY8W0aGpO/c1oqu3AKmlxCL0BW3iXGb637xzJ2VwZ4U7oJDgTfBLqBS+Ee6EQeMpULVFHUVOzPC3aNR2lkJotLbr0vtKiqWlMTcNaaXHQ0QfgaGqcaVG1jNLibGcbYyb/eDIlT6bjyZS+51JqtrS4gTfw/wzWqkKrKrU8fQPR6gKAmDKlPM3x1WkBFKmu0xxf3fZR5jnFdbzjv257JbmOdzx22yvadZzjW7e9ol27HWtVkjEtIubiB2u1Y8W0iJhTfzOe6uvAKmlxCL0FX+FdZvjevnMkd3Plgzuh0+A88EmoH7wM7oVC6AaiVdwuI2Z5WrRrOk4BNVtadOl9pUXENIhpWCstDjr6ABwR40yLaDVKi7Od7U1/Z0pzpjNngtNiaM2WFj8++A+motm0NTqjmwAAAABJRU5ErkJggg==') repeat-x 0 0;
   width: 150px;
   margin: 0 auto;
 }
-.items .right_column .infotabs .testimonial .ie7 form .stars {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial .ie7 form .stars {
   *zoom: 1;
 }
-.items .right_column .infotabs .testimonial form .stars:before,
-.items .right_column .infotabs .testimonial form .stars:after {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars:before,
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars:after {
   display: table;
   content: "";
 }
-.items .right_column .infotabs .testimonial form .stars:after {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars:after {
   clear: both;
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"] {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"] {
   position: absolute;
   opacity: 0;
   filter: alpha(opacity=0);
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"].star-15:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"].star-15:checked ~ span {
   width: 100%;
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"].star-14:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"].star-14:checked ~ span {
   width: 80%;
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"].star-13:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"].star-13:checked ~ span {
   width: 60%;
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"].star-12:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"].star-12:checked ~ span {
   width: 40%;
 }
-.items .right_column .infotabs .testimonial form .stars input[type="radio"].star-11:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars input[type="radio"].star-11:checked ~ span {
   width: 20%;
 }
-.items .right_column .infotabs .testimonial form .stars label {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label {
   display: block;
   width: 30px;
   height: 30px;
@@ -1194,25 +1195,25 @@ button:focus {
   background: transparent!important;
   cursor: pointer;
 }
-.items .right_column .infotabs .testimonial form .stars label:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label:hover ~ span {
   background-position: 0 -30px;
 }
-.items .right_column .infotabs .testimonial form .stars label.star-15:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label.star-15:hover ~ span {
   width: 100% !important;
 }
-.items .right_column .infotabs .testimonial form .stars label.star-14:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label.star-14:hover ~ span {
   width: 80% !important;
 }
-.items .right_column .infotabs .testimonial form .stars label.star-13:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label.star-13:hover ~ span {
   width: 60% !important;
 }
-.items .right_column .infotabs .testimonial form .stars label.star-12:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label.star-12:hover ~ span {
   width: 40% !important;
 }
-.items .right_column .infotabs .testimonial form .stars label.star-11:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars label.star-11:hover ~ span {
   width: 20% !important;
 }
-.items .right_column .infotabs .testimonial form .stars span {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial form .stars span {
   display: block;
   width: 0;
   position: relative;
@@ -1226,68 +1227,68 @@ button:focus {
   -o-transition: -o-width 0.5s;
   transition: width 0.5s;
 }
-.items .right_column .infotabs .testimonial .testimonial_header {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial .testimonial_header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
 }
-.items .right_column .infotabs .testimonial .testimonial_header .name h4 {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial .testimonial_header .name h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
-.items .right_column .infotabs .testimonial .testimonial_header .name time {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial .testimonial_header .name time {
   font-size: 14px;
   color: #CCCCCC;
 }
-.items .right_column .infotabs .testimonial .testimonial_body p {
+.items .right_column .infotabs .tab-slider--body .internal_body .testimonial .testimonial_body p {
   font-size: 14px;
   color: #777777;
 }
-.items .right_column .infotabs .answer {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer {
   border-bottom: 1px solid #31AAE2;
   margin-bottom: 20px;
   padding-bottom: 10px;
   padding-left: 50px;
 }
-.items .right_column .infotabs .answer form .stars {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars {
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABaCAYAAACv+ebYAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDcvMDMvMTNJ3Rb7AAACnklEQVRoge2XwW3bMBSGPxa9NxtIGzTAW8DdRL7o3A0qb+BrdNIm9QAm0G7gbJBMwB5MoVJNUSRFIXGqHwhkmXr68hOPNH9ljOEt9OlNqBs4RlrrSmtdpdZ/Ti0EGnvtUoqTHFunBVCkuk6d6mbi83rggdteSa5THDeB3+UDO9z2inatXFum1roESuAReAB29vp15n2/gRfgZK+/gIuIXLxgrfUO+Bnzn0fom4ic+pvRVNuB/QrQ/RB6A7bwLjN8b985krO5MsKd0ElwJvgk1AteCPdCYWI5/SutddQxRUTU3DOzG4hd01EKqQnZuaLBITUh4F0CeLYm5CDw6PjuFTjaz9+BLwE1I8VO9StwAEoRaUSkseMHO+aqcWq2qwcdfQCOIvIy8dwDV/c/YL6zvWDbnQ3QuH5hltQEreM1dH/n6g28gT8eWLVUqqVKrb+vtGidFkCR6vp+0uLAba8k1/eRFh1ue0W7dv4sqpaSjGnR1Fy8YNWyY8W0aGpO/c1oqu3AKmlxCL0BW3iXGb637xzJ2VwZ4U7oJDgTfBLqBS+Ee6EQeMpULVFHUVOzPC3aNR2lkJotLbr0vtKiqWlMTcNaaXHQ0QfgaGqcaVG1jNLibGcbYyb/eDIlT6bjyZS+51JqtrS4gTfw/wzWqkKrKrU8fQPR6gKAmDKlPM3x1WkBFKmu0xxf3fZR5jnFdbzjv257JbmOdzx22yvadZzjW7e9ol27HWtVkjEtIubiB2u1Y8W0iJhTfzOe6uvAKmlxCL0FX+FdZvjevnMkd3Plgzuh0+A88EmoH7wM7oVC6AaiVdwuI2Z5WrRrOk4BNVtadOl9pUXENIhpWCstDjr6ABwR40yLaDVKi7Od7U1/Z0pzpjNngtNiaM2WFj8++A+motm0NTqjmwAAAABJRU5ErkJggg==') repeat-x 0 0;
   width: 150px;
   margin: 0 auto;
 }
-.items .right_column .infotabs .answer .ie7 form .stars {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer .ie7 form .stars {
   *zoom: 1;
 }
-.items .right_column .infotabs .answer form .stars:before,
-.items .right_column .infotabs .answer form .stars:after {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars:before,
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars:after {
   display: table;
   content: "";
 }
-.items .right_column .infotabs .answer form .stars:after {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars:after {
   clear: both;
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"] {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"] {
   position: absolute;
   opacity: 0;
   filter: alpha(opacity=0);
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"].star-25:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"].star-25:checked ~ span {
   width: 100%;
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"].star-24:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"].star-24:checked ~ span {
   width: 80%;
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"].star-23:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"].star-23:checked ~ span {
   width: 60%;
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"].star-22:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"].star-22:checked ~ span {
   width: 40%;
 }
-.items .right_column .infotabs .answer form .stars input[type="radio"].star-21:checked ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars input[type="radio"].star-21:checked ~ span {
   width: 20%;
 }
-.items .right_column .infotabs .answer form .stars label {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label {
   display: block;
   width: 30px;
   height: 30px;
@@ -1300,25 +1301,25 @@ button:focus {
   background: transparent!important;
   cursor: pointer;
 }
-.items .right_column .infotabs .answer form .stars label:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label:hover ~ span {
   background-position: 0 -30px;
 }
-.items .right_column .infotabs .answer form .stars label.star-25:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label.star-25:hover ~ span {
   width: 100% !important;
 }
-.items .right_column .infotabs .answer form .stars label.star-24:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label.star-24:hover ~ span {
   width: 80% !important;
 }
-.items .right_column .infotabs .answer form .stars label.star-23:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label.star-23:hover ~ span {
   width: 60% !important;
 }
-.items .right_column .infotabs .answer form .stars label.star-22:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label.star-22:hover ~ span {
   width: 40% !important;
 }
-.items .right_column .infotabs .answer form .stars label.star-21:hover ~ span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars label.star-21:hover ~ span {
   width: 20% !important;
 }
-.items .right_column .infotabs .answer form .stars span {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer form .stars span {
   display: block;
   width: 0;
   position: relative;
@@ -1332,24 +1333,84 @@ button:focus {
   -o-transition: -o-width 0.5s;
   transition: width 0.5s;
 }
-.items .right_column .infotabs .answer .answer_header {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer .answer_header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
 }
-.items .right_column .infotabs .answer .answer_header .name h4 {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer .answer_header .name h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
-.items .right_column .infotabs .answer .answer_header .name time {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer .answer_header .name time {
   font-size: 14px;
   color: #CCCCCC;
 }
-.items .right_column .infotabs .answer .answer_body p {
+.items .right_column .infotabs .tab-slider--body .internal_body .answer .answer_body p {
   font-size: 14px;
   color: #777777;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial {
+  padding: 0 20px;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial h3 .blue {
+  color: #31AAE2;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial form {
+  text-align: center;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial form .name {
+  width: 49%;
+  padding-left: 10px;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial form .email {
+  width: 49%;
+  padding-left: 10px;
+}
+.items .right_column .infotabs .tab-slider--body .internal_body .your_testimonial form textarea {
+  width: 98%;
+  margin-top: 25px;
+  padding-left: 10px;
+}
+.items .right_column .infotabs .tab-slider--body .pagination {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.items .right_column .infotabs .tab-slider--body .pagination .pagi {
+  color: #777777;
+  font-size: 18px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 10px;
+  float: left;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: all 0.5s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.items .right_column .infotabs .tab-slider--body .pagination .pagi img {
+  width: 30px;
+  height: auto;
+}
+.items .right_column .infotabs .tab-slider--body .pagination .pagi.active {
+  color: #31AAE2;
+}
+.items .right_column .infotabs .tab-slider--body .pagination .pagi:hover {
+  background: #31AAE2;
+  color: #ffffff;
+  border: 1px solid #31AAE2;
 }
 .our_news .news_title {
   justify-content: center;
