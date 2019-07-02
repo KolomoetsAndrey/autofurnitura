@@ -2188,6 +2188,170 @@ button:focus {
 .items .right_column .favorites .item_card .item_desc .item_vars .var button p {
   color: #ffffff;
 }
+.items .right_column .order_history_inform {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.items .right_column .order_history_inform .pc_cont_text {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.items .right_column .order_history_inform .pc_cont_text button.back {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.items .right_column .order_history_inform .pc_cont_text button.back img {
+  width: 20px;
+  height: auto;
+}
+.items .right_column .order_history_inform .pc_cont_text .oh_title {
+  padding-bottom: 5px;
+}
+.items .right_column .order_history_inform .oh_summ_info .oh_summ {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 18px;
+  color: #31AAE2;
+}
+.items .right_column .order_history_inform .oh_summ_info .oh_summ span.summ {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.items .right_column .order_history_inform .oh_summ_info .oh_date {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.items .right_column .item_card {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+.items .right_column .item_card img {
+  width: 250px;
+  height: auto;
+}
+.items .right_column .item_card .item_desc {
+  margin-top: auto;
+}
+.items .right_column .item_card .item_desc .item_name {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.items .right_column .item_card .item_desc .item_name a {
+  font-size: 18px;
+  color: #2E3537;
+  text-decoration: none;
+}
+.items .right_column .item_card .item_desc .item_name a:hover {
+  color: #31AAE2;
+}
+.items .right_column .item_card .item_desc .item_vars .var {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #cccccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.items .right_column .item_card .item_desc .item_vars .var .var_name {
+  font-size: 18px;
+  color: #2E3537;
+  font-weight: 600;
+}
+.items .right_column .item_card .item_desc .item_vars .var .available {
+  font-size: 18px;
+  color: #777777;
+}
+.items .right_column .item_card .item_desc .item_vars .var .sku {
+  font-size: 16px;
+  color: #777777;
+  font-weight: 600;
+}
+.items .right_column .item_card .item_desc .item_vars .var .price {
+  color: #31AAE2;
+  font-size: 20px;
+  font-weight: 600;
+}
+.items .right_column .item_card .item_desc .item_vars .var .price .old_price {
+  display: block;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #777777;
+  font-weight: normal;
+}
+.items .right_column .item_card .item_desc .item_vars .var button {
+  color: #ffffff;
+  background: #31AAE2;
+  border: 1px solid #31AAE2;
+  height: 50px;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.items .right_column .item_card .item_desc .item_vars .var button:hover {
+  background: #23ce30;
+}
+.items .right_column .item_card .item_desc .item_vars .var button img {
+  width: 20px;
+  height: auto;
+}
+.items .right_column .item_card .item_desc .item_vars .var button p {
+  color: #ffffff;
+}
+.items .right_column .status_change {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.items .right_column .status_change .history_change {
+  padding: 20px;
+}
+.items .right_column .status_change .history_change .history_title {
+  font-size: 18px;
+  color: #31AAE2;
+  margin-bottom: 40px;
+}
+.items .right_column .status_change .history_change ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.items .right_column .status_change .payments_var,
+.items .right_column .status_change .delivery_status {
+  padding: 20px;
+}
+.items .right_column .status_change .payments_var .history_title,
+.items .right_column .status_change .delivery_status .history_title {
+  font-size: 18px;
+  color: #31AAE2;
+  margin-bottom: 40px;
+}
+.items .right_column .status_change .payments_var ul li,
+.items .right_column .status_change .delivery_status ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .flex-center {
   justify-content: center;
 }
