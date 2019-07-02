@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="...">
+    <meta name="keywords" content="...">
+    <meta name="author" content="...">
+    <title>Document</title>
+    <!--FonAwesome-->
+    <script src="https://kit.fontawesome.com/19587f464c.js"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
+    <!--OWL-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--ToTop-->
+    <button class="toTop" onclick="topFunction()" id="toTop"><i class="fas fa-chevron-up"></i></button>
+    <!--End ToTop-->
+
+    <!--Header-->
+    <header class="top">
+        <div class="container">
+            <div class="row">
+                <ul class="languages">
+                    <li>
+                        <a href="#">
+                            <img src="images/ru.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/ua.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="location">
+                    <li>
+                        <img src="images/loc.png" alt="">
+                    </li>
+                    <li>
+                        г. Черкассы, ул. 30 лет Победы 23
+                    </li>
+                </ul>
+                <ul class="phones">
+                    <li>
+                        <img src="images/phone.png" alt="">
+                    </li>
+                    <li>
+                        +38 (0472) 65-71-78, +38 (067) 472-09-00
+                    </li>
+                </ul>
+                <ul class="mail">
+                    <li>
+                        <img src="images/mail.png" alt="">
+                    </li>
+                    <li>
+                        <a href="mailto:shop@autofurnitura.com">shop@autofurnitura.com</a>
+                    </li>
+                </ul>
+                <button data-fancybox data-animation-duration="500" data-src="#for_clients" href="javascript:;" class="opt">Оптовому покупателю</button>
+                <ul class="my_cart">
+                    <li>
+                        <a href="javascript:;" data-fancybox data-animation-duration="500" data-src="#cart_popup">
+                            <img class="cart" src="images/cart.png" alt="">
+                            <span class="badge">16</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="result">15280,00 грн</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <header class="menu" id="menu">
+        <a href="#" class="logo">
+            <img src="images/mainlogo.png" alt="">
+        </a>
+        <div class="display_nav">
+            <nav class="topnav" id="navigation">
+                <a href="index.html" class="navlink active">Главная</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Каталог продукции
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Ящики, рукомойники</a></li>
+                            <li><a href="#" class="sublink">Фиксаторы двери</a></li>
+                            <li><a href="#" class="sublink">Тентовая фурнитура</a></li>
+                            <li><a href="#" class="sublink">Светотехника</a></li>
+                            <li><a href="#" class="sublink">Замки</a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Пластиковые крылья</a></li>
+                            <li><a href="#" class="sublink">Боковая защита</a></li>
+                            <li><a href="#" class="sublink">Уплотнитель дверной</a></li>
+                            <li><a href="#" class="sublink">Светоотражающая лента</a></li>
+                            <li><a href="#" class="sublink">Детали тормозной системы</a></li>
+                        </ul>
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Петли</a></li>
+                            <li><a href="#" class="sublink">Лестницы</a></li>
+                            <li><a href="#" class="sublink">Отбойники резиновые</a></li>
+                            <li><a href="#" class="sublink">Информационные таблицы</a></li>
+                            <li><a href="#" class="sublink">Ремкомплекты устройств сцепки</a></li>
+                        </ul>
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">Запорные устройства</a></li>
+                            <li><a href="#" class="sublink">Бортовая фурнитура</a></li>
+                            <li><a href="#" class="sublink">Элементы фиксации груза</a></li>
+                            <li><a href="#" class="sublink">Контейнерная фурнитура</a></li>
+                            <li><a href="#" class="sublink">Детали подвески, ходовой, кабины водителя</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="navlink">Акции</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Производители
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/1.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/2.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/3.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/4.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/5.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/6.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/7.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/8.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/9.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/10.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/11.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/12.png" alt="">
+                            </a></li>
+                        </ul> 
+                        <ul class="sub-menu-lists">
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/13.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/14.png" alt="">
+                            </a></li>
+                            <li><a href="#" class="sublink">
+                                <img src="images/partners/15.png" alt="">
+                            </a></li>
+                        </ul> 
+                    </div>
+                </div>
+                <a href="#" class="navlink">Новости</a>
+                <a href="#" class="navlink">Контакты</a>
+                <a href="#" class="navlink">О компании</a>
+            </nav>
+        </div>
+        <div class="mobile_nav">
+             <div class="hamburger">
+                <button class="openbtn" onclick="openNav()">
+                    <img src="images/hamburger.png" alt="" class="hamb">
+                </button> 
+            </div>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="the_menu" href="index.html">Главная</a>
+                <a class="the_menu collapsible">Каталог продукции</a>
+                <div class="content">
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Ящики, рукомойники</a></li>
+                        <li><a href="#" class="sublink">Фиксаторы двери</a></li>
+                        <li><a href="#" class="sublink">Тентовая фурнитура</a></li>
+                        <li><a href="#" class="sublink">Светотехника</a></li>
+                        <li><a href="#" class="sublink">Замки</a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Пластиковые крылья</a></li>
+                        <li><a href="#" class="sublink">Боковая защита</a></li>
+                        <li><a href="#" class="sublink">Уплотнитель дверной</a></li>
+                        <li><a href="#" class="sublink">Светоотражающая лента</a></li>
+                        <li><a href="#" class="sublink">Детали тормозной системы</a></li>
+                    </ul>
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Петли</a></li>
+                        <li><a href="#" class="sublink">Лестницы</a></li>
+                        <li><a href="#" class="sublink">Отбойники резиновые</a></li>
+                        <li><a href="#" class="sublink">Информационные таблицы</a></li>
+                        <li><a href="#" class="sublink">Ремкомплекты устройств сцепки</a></li>
+                    </ul>
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">Запорные устройства</a></li>
+                        <li><a href="#" class="sublink">Бортовая фурнитура</a></li>
+                        <li><a href="#" class="sublink">Элементы фиксации груза</a></li>
+                        <li><a href="#" class="sublink">Контейнерная фурнитура</a></li>
+                        <li><a href="#" class="sublink">Детали подвески, ходовой, кабины водителя</a></li>
+                    </ul>
+                </div>
+                <a class="the_menu" href="#">Акции</a>
+                <a class="the_menu collapsible">Производители</a>
+                <div class="content">
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/1.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/2.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/3.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/4.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/5.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/6.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/7.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/8.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/9.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/10.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/11.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/12.png" alt="">
+                        </a></li>
+                    </ul> 
+                    <ul class="sub-menu-lists">
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/13.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/14.png" alt="">
+                        </a></li>
+                        <li><a href="#" class="sublink">
+                            <img src="images/partners/15.png" alt="">
+                        </a></li>
+                    </ul> 
+                </div>
+                <a class="the_menu" href="#">Новости</a>
+                <a class="the_menu" href="#">Контакты</a>
+                <a class="the_menu" href="#">О компании</a>
+            </div>
+            <div class="searching">
+                <input type="text" id="my-input">
+                <button type="button" id="my-button"><img src="images/search.png" alt=""></button>
+            </div>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Введите название товара">
+            <button>Поиск</button>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Breadcrumbs-->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <h2>Корзина</h2>
+                <ul>
+                    <li>
+                        <a href="index.html" class="bredcrumbs_link">Главная</a>
+                    </li>
+                    <li>
+                        /
+                    </li>
+                    <li>
+                        <p class="target">Корзина</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Breadcrumbs-->
+
+    <!--Items-->
+    <section class="items">
+        <div class="container">
+            <div class="row">
+                <div class="left_column">
+                    <div class="liked">
+                        <h3 class="liked_title">
+                            Избранные товары
+                        </h3>
+                        <!--
+                        <p class="your_liked">
+                            Ваш список пожеланий
+                        </p>
+                        -->
+                        <div class="liked_items">
+                            <div class="liked_item">
+                                <ul>
+                                    <li>
+                                        <img src="images/cat1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Петля задних дверей в сборе (305*72)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="liked_item">
+                                <ul>
+                                    <li>
+                                        <img src="images/cat1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Петля задних дверей в сборе (305*72)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="liked_item">
+                                <ul>
+                                    <li>
+                                        <img src="images/cat1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Петля задних дверей в сборе (305*72)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="show_all_liked">Показать все избранные</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_column">
+                    <div class="row flex-column">
+                        <h3 class="cart_title">
+                            Корзина
+                        </h3>
+                        <div class="cart_item">
+                            <img class="cart_item_img" src="images/item1.png" alt="" class="cart_item_img">
+                            <div class="cart_item_name">
+                                <p class="cart_item_sku">
+                                    Артикул: 1602325030
+                                </p>
+                                <a href="#" class="cart_item_title">
+                                    Петля задних дверей в сборе (258*85) 
+                                </a>
+                                <p class="cart_item_material">
+                                    Цынк
+                                </p>
+                                <p class="cart_item_oneprice">
+                                    110,00 грн за шт
+                                </p>
+                            </div>
+                            <div class="cart_item_pm">
+                                <div class="input-group plus-minus-input">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="minus" data-field="quantity">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input class="input-group-field" type="number" name="quantity" value="1">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_item_summ">
+                                <p class="summ">110,00 грн</p>
+                            </div>
+                            <button class="close_btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="cart_item">
+                            <img class="cart_item_img" src="images/item1.png" alt="" class="cart_item_img">
+                            <div class="cart_item_name">
+                                <p class="cart_item_sku">
+                                    Артикул: 1602325030
+                                </p>
+                                <a href="#" class="cart_item_title">
+                                    Петля задних дверей в сборе (258*85) 
+                                </a>
+                                <p class="cart_item_material">
+                                    Цынк
+                                </p>
+                                <p class="cart_item_oneprice">
+                                    110,00 грн за шт
+                                </p>
+                            </div>
+                            <div class="cart_item_pm">
+                                <div class="input-group plus-minus-input">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="minus" data-field="quantity">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input class="input-group-field" type="number" name="quantity" value="1">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_item_summ">
+                                <p class="summ">110,00 грн</p>
+                            </div>
+                            <button class="close_btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="cart_item">
+                            <img class="cart_item_img" src="images/item1.png" alt="" class="cart_item_img">
+                            <div class="cart_item_name">
+                                <p class="cart_item_sku">
+                                    Артикул: 1602325030
+                                </p>
+                                <a href="#" class="cart_item_title">
+                                    Петля задних дверей в сборе (258*85) 
+                                </a>
+                                <p class="cart_item_material">
+                                    Цынк
+                                </p>
+                                <p class="cart_item_oneprice">
+                                    110,00 грн за шт
+                                </p>
+                            </div>
+                            <div class="cart_item_pm">
+                                <div class="input-group plus-minus-input">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="minus" data-field="quantity">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input class="input-group-field" type="number" name="quantity" value="1">
+                                    <div class="input-group-button">
+                                        <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_item_summ">
+                                <p class="summ">110,00 грн</p>
+                            </div>
+                            <button class="close_btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="sum_price">
+                            <p class="sprice">Всего: <span class="ssum">31 130,00 грн</span></p>
+                        </div>
+                        <div class="order_tabs">
+                            <h3 class="ot_title">
+                                Оформление заказа
+                            </h3>
+                            <div class="tab-slider--nav">
+                                <ul class="tab-slider--tabs">
+                                    <li class="tab-slider--trigger active" rel="tab3">Купить без регистрации</li>
+                                    <li class="tab-slider--trigger" rel="tab4">Для новых клиентов</li>
+                                    <li class="tab-slider--trigger" rel="tab5">Для постоянных клиентов</li>
+                                </ul>
+                            </div>
+                            <div class="tab-slider--container">
+                                <div id="tab3" class="tab-slider--body">
+                                    <div class="internal_body">
+                                        <h4 class="cont_info">
+                                            Контактная информация
+                                        </h4>
+                                        <form class="cont_info_form">
+                                            <input type="firm" class="firm" placeholder="Название организации">
+                                            <input type="name" class="name" placeholder="Имя контактного лица">
+                                            <input type="phone" class="phone" placeholder="Телефон">
+                                            <input type="mail" class="mail" placeholder="Электронная почта">
+                                            <textarea name="comment" id="comment" rows="3" placeholder="Комментарий к заказу"></textarea>
+                                        </form>
+                                        <h4 class="cont_info">
+                                            Выберите способ оплаты
+                                        </h4>
+                                        <div class="payments">
+                                            <div class="cntr">
+                                                <label for="opt1" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt1" class="hidden"/>
+                                                    <span class="label"></span>Наложенный платеж
+                                                </label>
+                                                <label for="opt2" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt2" class="hidden"/>
+                                                    <span class="label"></span>Безналичный расчет на т/с
+                                                </label>
+                                                <label for="opt3" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt3" class="hidden"/>
+                                                    <span class="label"></span>Банковский перевод на карту Приватбанк
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <h4 class="cont_info">
+                                            Выберите способ доставки
+                                        </h4>
+                                        <div class="delivery">
+                                            <div class="cntr">
+                                                <label for="opt11" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt11" class="hidden"/>
+                                                    <span class="label"></span>Новая Почта
+                                                </label>
+                                                <label for="opt12" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt12" class="hidden"/>
+                                                    <span class="label"></span>САТ
+                                                </label>
+                                                <label for="opt13" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt13" class="hidden"/>
+                                                    <span class="label"></span>Другая компания-перевозчик
+                                                </label>
+                                            </div>
+                                            <div class="delivery_method">
+                                                <select name="region" id="region">
+                                                    <option>Выберите область</option>
+                                                    <option value="region1">Область 1</option>
+                                                    <option value="region2">Область 2</option>
+                                                </select>
+                                                <select name="city" id="city">
+                                                    <option>Выберите город</option>
+                                                    <option value="region1">Город 1</option>
+                                                    <option value="region2">Город 2</option>
+                                                </select>
+                                                <select name="postnumber" id="postnumber">
+                                                    <option>Выберите отделение</option>
+                                                    <option value="region1">Отделение 1</option>
+                                                    <option value="region2">Отделение 2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="order_confirm_btn">
+                                            <button class="confirm">
+                                                Подтвердить заказ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-slider--container">
+                                <div id="tab4" class="tab-slider--body">
+                                    <div class="internal_body">
+                                        <h4 class="cont_info">
+                                            Контактная информация
+                                        </h4>
+                                        <form class="cont_info_form">
+                                            <input type="login" class="login" placeholder="Логин">
+                                            <input type="name" class="name" placeholder="Имя пользователя">
+                                            <input type="pass" class="pass" placeholder="Пароль">
+                                            <input type="reenterpass" class="reenterpass" placeholder="Повторить пароль">
+                                            <input type="firm" class="firm" placeholder="Название организации">
+                                            <input type="firstname" class="firstname" placeholder="Имя контактного лица">
+                                            <input type="phone" class="phone" placeholder="Телефон">
+                                            <input type="mail" class="mail" placeholder="Электронная почта">
+                                            <textarea name="comment" id="comment" rows="3" placeholder="Комментарий к заказу"></textarea>
+                                        </form>
+                                        <h4 class="cont_info">
+                                            Выберите способ оплаты
+                                        </h4>
+                                        <div class="payments">
+                                            <div class="cntr">
+                                                <label for="opt1" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt1" class="hidden"/>
+                                                    <span class="label"></span>Наложенный платеж
+                                                </label>
+                                                <label for="opt2" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt2" class="hidden"/>
+                                                    <span class="label"></span>Безналичный расчет на т/с
+                                                </label>
+                                                <label for="opt3" class="radio">
+                                                    <input type="radio" name="rdo1" id="opt3" class="hidden"/>
+                                                    <span class="label"></span>Банковский перевод на карту Приватбанк
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <h4 class="cont_info">
+                                            Выберите способ доставки
+                                        </h4>
+                                        <div class="delivery">
+                                            <div class="cntr">
+                                                <label for="opt11" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt11" class="hidden"/>
+                                                    <span class="label"></span>Новая Почта
+                                                </label>
+                                                <label for="opt12" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt12" class="hidden"/>
+                                                    <span class="label"></span>САТ
+                                                </label>
+                                                <label for="opt13" class="radio">
+                                                    <input type="radio" name="rdo2" id="opt13" class="hidden"/>
+                                                    <span class="label"></span>Другая компания-перевозчик
+                                                </label>
+                                            </div>
+                                            <div class="delivery_method">
+                                                <select name="region" id="region">
+                                                    <option>Выберите область</option>
+                                                    <option value="region1">Область 1</option>
+                                                    <option value="region2">Область 2</option>
+                                                </select>
+                                                <select name="city" id="city">
+                                                    <option>Выберите город</option>
+                                                    <option value="region1">Город 1</option>
+                                                    <option value="region2">Город 2</option>
+                                                </select>
+                                                <select name="postnumber" id="postnumber">
+                                                    <option>Выберите отделение</option>
+                                                    <option value="region1">Отделение 1</option>
+                                                    <option value="region2">Отделение 2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="order_confirm_btn">
+                                            <button class="confirm">
+                                                Подтвердить заказ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-slider--container">
+                                <div id="tab5" class="tab-slider--body">
+                                    <div class="internal_body">
+                                        <p class="registration_info">
+                                            Если Вы уже зарегистрированы, то для завершения заказа Вам нужно всего лишь ввести Ваш логин и пароль. 
+                                        </p>
+                                        <form class="cont_info_form">
+                                            <input type="login" class="login" placeholder="Логин">
+                                            <input type="pass" class="pass" placeholder="Пароль">
+                                        </form>
+                                        <div class="login_btn">
+                                            <button class="login">
+                                                Войти
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Items-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>О компании</h4>
+                    </div>
+                    <div class="fb_text">
+                        <p>
+                            Производитель комплектующих и запчастей для грузовых автомобильных фургонов
+                        </p>
+                    </div>
+                    <div class="fb_content">
+                        <ul class="contacts">
+                            <li>
+                                <img src="images/locblue.png" alt=""> г. Черкассы, ул. 30 лет Победы 23
+                            </li>
+                            <li>
+                                <img src="images/phoneblue.png" alt=""> +38 (0472) 65-71-78, +38 (067) 472-09-00
+                            </li>
+                            <li>
+                                <img src="images/mail.png" alt=""> <a href="http://shop@autofurnitura.com">shop@autofurnitura.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Подписаться</h4>
+                    </div>
+                    <div class="fb_text">
+                        <p>
+                            Подписывайте на рассылку самых важных новостей компании. Будьте в курсе! 
+                        </p>
+                    </div>
+                    <div class="fb_content">
+                        <form>
+                            <input type="text" placeholder="Имя">
+                            <input type="email" placeholder="Электронная почта">
+                            <button>Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Новости компании</h4>
+                    </div>
+                    <div class="fb_content">
+                        <div class="fb_news">
+                            <a href="#">
+                                Автофурнитура к полуприцепам
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fb_news">
+                            <a href="#">
+                                Уплотнительный профиль для дверей фургонов, полуприцепов и рефрижераторов.
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="fb_news">
+                            <a href="#">
+                                Новое поступление ремней стяжных с храповым механизмом Wistra.
+                            </a>
+                            <div class="time">
+                                <ul>
+                                    <li>
+                                        <time pubdate="">июня 18 - 2015</time>
+                                    </li>
+                                    <li>
+                                        /
+                                    </li>
+                                    <li>
+                                        <img src="images/testimonials.png" alt=""> 0
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <div class="fb_title">
+                        <h4>Главное меню</h4>
+                    </div>
+                    <div class="fb_content">
+                        <div class="fb_menu">
+                            <ul>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Главная</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Каталог продукции</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Акции</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Производители</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Новости</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <img src="images/right.png" alt=""><img src="images/right.png" alt=""> <a href="#">О компании</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="copyright">Комтранс © Copyright 2019.  Разработано компанией SFdevelop</p>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <!--Fancybox Popup-->
+    <div style="display: none;" id="for_clients" class="animated-modal">
+        <form>
+            <input type="login" class="login" placeholder="Логин">
+            <input type="password" class="pass" placeholder="Пароль">
+            <ul class="enter">
+                <li>
+                    <button class="login">Войти</button>
+                </li>
+                <li>
+                    <label class="container">Запомнить меня
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <ul class="remember">
+                <li>
+                    <a href="#">Забыли свой логин?</a>
+                </li>
+                <li>
+                    <a href="#">Забыли свой пароль?</a>
+                </li>
+                <li>
+                    <a href="#">Зарегистрироваться</a>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+    <div style="display: none;" id="byit" class="animated-modal">
+        <div class="byitmodal">
+            <h3 class="thanks">Спасибо за покупку!</h3>
+            <p class="isadd">Выбранный Вами товар добавлен в корзину.</p>
+            <button data-fancybox-close class="goto_shoping">Продолжить покупки</button>
+        </div>
+    </div>
+
+    <div style="display: none;" id="cart_popup" class="animated-modal">
+        <!--
+        <div class="empty_cart">
+            <h3 class="cart_is_empty">Ваша корзина пока пуста!</h3>
+            <p class="go_shoping">Добавьте несколько товаров к себе в корзину.</p>
+        </div>
+        -->
+        <div class="full_cart">
+            <h3 class="cart_is_full">В Вашей корзине: 16 товаров</h3>
+            <p class="summ">На сумму: 15280,00 грн</p>
+            <ul class="full_cart_btns">
+                <li>
+                    <button class="goto_cart">Просмотреть корзину</button>
+                </li>
+                <li>
+                    <button data-fancybox-close class="goto_shoping">Продолжить покупки</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--End Fancybox Popup-->
+
+    <!--Scripts-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
