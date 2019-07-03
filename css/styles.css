@@ -3158,6 +3158,12 @@ button:focus {
   margin-right: 5px;
   width: calc(50% - 10px);
   padding-right: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .about_us .our_team_info {
+    width: calc(100% - 10px);
+  }
 }
 .about_us .our_team_info h2 {
   font-size: 40px;
@@ -3177,6 +3183,11 @@ button:focus {
   margin-right: 5px;
   width: calc(50% - 10px);
   padding-left: 20px;
+}
+@media screen and (max-width: 900px) {
+  .about_us .our_team_photo {
+    width: calc(100% - 10px);
+  }
 }
 .footer {
   background: #2E3537;
@@ -3881,6 +3892,9 @@ button:focus {
   }
   .ourbrands .brands_block img {
     max-height: 68px;
+  }
+  .about_us .our_team_photo {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 768px) {
