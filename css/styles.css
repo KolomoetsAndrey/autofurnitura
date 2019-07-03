@@ -616,6 +616,11 @@ button:focus {
   margin-right: 5px;
   width: calc(75% - 10px);
 }
+@media screen and (max-width: 900px) {
+  .news .left_column {
+    width: calc(100% - 10px);
+  }
+}
 .news .left_column .article_preview {
   padding: 40px 20px;
   margin-bottom: 20px;
@@ -780,6 +785,7 @@ button:focus {
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .news .left_column .art_toggle_btns .prew_art a,
 .news .left_column .art_toggle_btns .next_art a {
@@ -804,6 +810,11 @@ button:focus {
   margin-left: 5px;
   margin-right: 5px;
   width: calc(25% - 10px);
+}
+@media screen and (max-width: 900px) {
+  .news .right_column {
+    width: calc(100% - 10px);
+  }
 }
 .news .right_column .other_news {
   background: #ffffff;
@@ -4229,6 +4240,21 @@ button:focus {
   .items .right_column .sum_price {
     margin-left: 0;
     margin-right: 0;
+  }
+  .news .left_column .testimonial {
+    padding: 30px;
+  }
+  .news .left_column .testimonial .testimonial_title {
+    font-size: 20px;
+  }
+  .news .left_column .testimonial form.testimonial_form input {
+    width: 100%;
+  }
+  .news .left_column .testimonial form.testimonial_form textarea {
+    width: 94%;
+  }
+  .news .left_column .testimonial form.testimonial_form .send_btn {
+    text-align: center;
   }
   .footer {
     padding-top: 40px;
