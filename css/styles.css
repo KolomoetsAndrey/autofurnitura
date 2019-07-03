@@ -4131,6 +4131,20 @@ button:focus {
   .items .right_column .favorites .item_card img {
     width: 100%;
   }
+  .items .right_column .order_history_inform {
+    flex-direction: column;
+  }
+  .items .right_column .order_history_inform .pc_cont_text {
+    justify-content: center;
+  }
+  .items .right_column .status_change {
+    flex-direction: column;
+  }
+  .items .right_column .status_change .history_change,
+  .items .right_column .status_change .payments_var,
+  .items .right_column .status_change .delivery_status {
+    width: 100%;
+  }
   .brand_information .pagination .pagi {
     font-size: 10px;
     padding: 5px;
