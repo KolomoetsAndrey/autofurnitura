@@ -1900,6 +1900,28 @@ button:focus {
                                 margin-top: 25px;
                                 padding-left: 10px;
                             }
+
+                            .send_btn {
+                                width: 100%;
+                                margin-top: 20px;
+                                text-align: right;
+
+                                button.comment {
+                                    font-size: 14px;
+                                    color: #ffffff;
+                                    border: 1px solid #31AAE2;
+                                    background: #31AAE2;
+                                    font-family: @condensed;
+                                    cursor: pointer;
+                                    padding: 5px 50px;
+                                    transition: all 0.5s;
+            
+                                    &:hover {
+                                        color: #31AAE2;
+                                        background: #ffffff;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -4145,6 +4167,38 @@ button:focus {
         }
     }
 
+    .items {
+        .right_column {
+            .item_information {
+                .item_info {
+                    .item_itfo_title {
+                        font-size: 24px;
+                    }
+
+                    .item_variants {
+                        .itemvar {
+                            ul {
+                                li {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .price_block {
+                                .price {
+                                    font-size: 20px;
+
+                                    .old_price {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .footer {
         .footer_block {
             .fb_title {
@@ -4258,6 +4312,28 @@ button:focus {
 
     .breadcrumbs {
         margin-bottom: 40px;
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .items {
+        .right_column {
+            .item_information {
+                .item_info {
+                    .item_variants {
+                        .itemvar {
+                            .buybtns {
+                                .byit {
+                                    padding: 7px 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -4265,6 +4341,51 @@ button:focus {
     .top {
         .phones {
             display: none;
+        }
+    }
+
+    .items {
+        .right_column {
+            .item_information {
+                flex-direction: column;
+
+                .item_image {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .item_info {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: 0;
+
+                    .item_variants {
+                        .itemvar {
+                            .buybtns {
+                                .byit {
+                                    padding: 7px 15px;
+                                    font-size: 14px;
+                                }
+
+                                .byoneclick {
+                                    padding: 7px 15px;
+                                    font-size: 14px;
+                                }
+
+                                .liked {
+                                    i {
+                                        padding: 5px 10px 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -4347,11 +4468,140 @@ button:focus {
                     }
                 }
             }
+
+            .infotabs {
+                .tab-slider--tabs {
+                    width: 100%;
+                    justify-content: center;
+                }
+
+                .tab-slider--trigger {
+                    width: 45%;
+                }
+
+                .tab-slider--body {
+                    .internal_body {
+                        .answer {
+                            padding-left: 0;
+
+                            .answer_header {
+                                .name {
+                                    h4 {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .testimonial {
+                            .testimonial_header {
+                                .name {
+                                    h4 {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .your_testimonial {
+                            h3 {
+                                font-size: 20px;
+                            }
+
+                            form {
+                                .name, .email {
+                                    width: 100%;
+                                    margin-bottom: 20px;
+                                }
+
+                                textarea {
+                                    width: 93%;
+                                }
+
+                                .send_btn {
+                                    text-align: center;
+
+                                    button.comment {
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .pagination {
+                        .pagi {
+                            font-size: 10px;
+                            padding: 5px;
+                            width: 30px;
+                            height: 30px;
+                            justify-content: center;
+                            margin: 2px;
+        
+                            img {
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
     .footer {
         padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .items {
+        .right_column {
+            .item_information {
+                .item_info {
+                    .item_rating {
+                        .rating_desc {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .item_variants {
+                        .itemvar {
+                            ul {
+                                 li {
+                                     font-size: 10px;
+                                 }
+                            }
+
+                            .price_block {
+                                .price {
+                                    font-size: 16px;
+                                }
+
+                                .price_desc {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .buybtns {
+                                .byit {
+                                    padding: 5px 10px;
+                                }
+
+                                .byoneclick {
+                                    padding: 5px 10px;
+                                }
+
+                                .liked {
+                                    i {
+                                        padding: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
