@@ -2657,7 +2657,7 @@ button:focus {
   word-wrap: break-word;
   margin-left: 5px;
   margin-right: 5px;
-  width: 24%;
+  width: calc(25% - 10px);
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -2665,6 +2665,21 @@ button:focus {
   border: 1px solid #cccccc;
   background: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .brand_information .item_card {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .brand_information .item_card {
+    width: calc(100% - 10px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .brand_information .item_card {
+    width: calc(100% - 10px);
+  }
 }
 .brand_information .item_card img {
   width: 250px;
@@ -3553,6 +3568,18 @@ button:focus {
   .items .right_column .item_card .item_desc .item_vars .var .price {
     font-size: 16px;
   }
+  .brand_information .item_card .item_desc .item_vars .var .var_name {
+    font-size: 14px;
+  }
+  .brand_information .item_card .item_desc .item_vars .var .sku {
+    font-size: 14px;
+  }
+  .brand_information .item_card .item_desc .item_vars .var .available {
+    font-size: 14px;
+  }
+  .brand_information .item_card .item_desc .item_vars .var .price {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .menu {
@@ -3714,6 +3741,12 @@ button:focus {
   .items .right_column .item_information .item_info .item_variants .itemvar .price_block .price .old_price {
     font-size: 12px;
   }
+  .brand_information .item_card .item_desc .item_name a {
+    font-size: 14px;
+  }
+  .brand_information .item_card .item_desc .item_vars .var .price .old_price {
+    font-size: 12px;
+  }
   .footer .footer_block .fb_title h4 {
     font-size: 18px;
   }
@@ -3783,6 +3816,10 @@ button:focus {
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byit {
     padding: 7px 25px;
+  }
+  .brand_information .brand_description img {
+    float: none;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -3907,6 +3944,17 @@ button:focus {
     margin: 2px;
   }
   .items .right_column .infotabs .tab-slider--body .pagination .pagi img {
+    width: 50%;
+  }
+  .brand_information .pagination .pagi {
+    font-size: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin: 2px;
+  }
+  .brand_information .pagination .pagi img {
     width: 50%;
   }
   .footer {
