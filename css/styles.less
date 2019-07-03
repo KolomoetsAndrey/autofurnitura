@@ -1065,22 +1065,27 @@ button:focus {
             }
         }
 
-        a.personal_cab_btn {
-            border: 1px solid #777777;
-            padding: 10px;
-            text-transform: uppercase;
-            font-size: 16px;
-            color: #31AAE2;
-            background: #ffffff;
-            width: 100%;
-            margin-bottom: 20px;
-            text-align: center;
-            text-decoration: none;
+        .pc_btns {
+            display: flex;
+            flex-direction: column;
 
-            &.active {
-                color: #ffffff;
-                background: #31AAE2;
-                border: 1px solid #31AAE2;
+            a.personal_cab_btn {
+                border: 1px solid #777777;
+                padding: 10px;
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #31AAE2;
+                background: #ffffff;
+                width: 100%;
+                margin-bottom: 20px;
+                text-align: center;
+                text-decoration: none;
+    
+                &.active {
+                    color: #ffffff;
+                    background: #31AAE2;
+                    border: 1px solid #31AAE2;
+                }
             }
         }
     }
@@ -3974,6 +3979,32 @@ button:focus {
                     }
                 }
             }
+
+            .favorites {
+                .item_card {
+                    .item_desc {
+                        .item_vars {
+                            .var {
+                                .var_name {
+                                    font-size: 14px;
+                                }
+    
+                                .sku {
+                                    font-size: 14px;
+                                }
+    
+                                .available {
+                                    font-size: 14px;
+                                }
+    
+                                .price {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -4353,6 +4384,12 @@ button:focus {
                     }
                 }
             }
+
+            .favorites {
+                .item_card {
+                    width: 45%;
+                }
+            }
         }
     }
 
@@ -4378,8 +4415,31 @@ button:focus {
             display: none;
         }
 
+        .left_to_top {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+
+            .login_info {
+                .col();
+                .size(5);
+            }
+
+            .pc_btns {
+                .col();
+                .size(7);
+            }
+        }
+
         .right_column {
             width: 100%;
+
+            .personal_cab, .change_pass, .manager {
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
     }
 
@@ -4439,6 +4499,42 @@ button:focus {
 
     .items {
         .right_column {
+            .personal_cab {
+                form.pc_contact_info {
+                    .infoblock {
+                        width: 100%;
+                    }
+
+                    .flex-right {
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .change_pass {
+                form.pc_contact_info {
+                    .infoblock.third {
+                        width: 48%;
+                    }
+
+                    .flex-right {
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .manager {
+                form.pc_contact_info {
+                    .infoblock.third {
+                        width: 48%;
+                    }
+
+                    .flex-right {
+                        justify-content: center;
+                    }
+                }
+            }
+
             .item_information {
                 .item_info {
                     .item_variants {
@@ -4643,6 +4739,15 @@ button:focus {
     }
 
     .items {
+
+        .left_to_top {
+            flex-direction: column;
+
+            .login_info, .pc_btns {
+                width: 100%;
+            }
+        }
+
         .right_column {
             .sorting {
                 flex-direction: column;
@@ -4752,6 +4857,40 @@ button:focus {
                                 width: 50%;
                             }
                         }
+                    }
+                }
+            }
+
+            .change_pass {
+                form.pc_contact_info {
+                    .infoblock.third {
+                        width: 100%;
+                    }
+
+                    .flex-right {
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .manager {
+                form.pc_contact_info {
+                    .infoblock.third {
+                        width: 100%;
+                    }
+
+                    .flex-right {
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .favorites {
+                .item_card {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
                     }
                 }
             }

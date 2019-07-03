@@ -1012,7 +1012,11 @@ button:focus {
   color: #31AAE2;
   background: #ffffff;
 }
-.items .left_column a.personal_cab_btn {
+.items .left_column .pc_btns {
+  display: flex;
+  flex-direction: column;
+}
+.items .left_column .pc_btns a.personal_cab_btn {
   border: 1px solid #777777;
   padding: 10px;
   text-transform: uppercase;
@@ -1024,7 +1028,7 @@ button:focus {
   text-align: center;
   text-decoration: none;
 }
-.items .left_column a.personal_cab_btn.active {
+.items .left_column .pc_btns a.personal_cab_btn.active {
   color: #ffffff;
   background: #31AAE2;
   border: 1px solid #31AAE2;
@@ -3568,6 +3572,18 @@ button:focus {
   .items .right_column .item_card .item_desc .item_vars .var .price {
     font-size: 16px;
   }
+  .items .right_column .favorites .item_card .item_desc .item_vars .var .var_name {
+    font-size: 14px;
+  }
+  .items .right_column .favorites .item_card .item_desc .item_vars .var .sku {
+    font-size: 14px;
+  }
+  .items .right_column .favorites .item_card .item_desc .item_vars .var .available {
+    font-size: 14px;
+  }
+  .items .right_column .favorites .item_card .item_desc .item_vars .var .price {
+    font-size: 16px;
+  }
   .brand_information .item_card .item_desc .item_vars .var .var_name {
     font-size: 14px;
   }
@@ -3801,6 +3817,9 @@ button:focus {
   .items .right_column .cart_item .cart_item_summ .summ {
     font-size: 14px;
   }
+  .items .right_column .favorites .item_card {
+    width: 45%;
+  }
   .ourbrands .brands_block img {
     max-height: 73px;
   }
@@ -3813,8 +3832,35 @@ button:focus {
   .items .left_column {
     display: none;
   }
+  .items .left_to_top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .items .left_to_top .login_info {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(41.66666666666667% - 10px);
+  }
+  .items .left_to_top .pc_btns {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(58.333333333333336% - 10px);
+  }
   .items .right_column {
     width: 100%;
+  }
+  .items .right_column .personal_cab,
+  .items .right_column .change_pass,
+  .items .right_column .manager {
+    padding-left: 0;
+    padding-right: 0;
   }
   .ourbrands .brands_block img {
     max-height: 68px;
@@ -3844,6 +3890,24 @@ button:focus {
   }
   .breadcrumbs h2 {
     font-size: 25px;
+  }
+  .items .right_column .personal_cab form.pc_contact_info .infoblock {
+    width: 100%;
+  }
+  .items .right_column .personal_cab form.pc_contact_info .flex-right {
+    justify-content: center;
+  }
+  .items .right_column .change_pass form.pc_contact_info .infoblock.third {
+    width: 48%;
+  }
+  .items .right_column .change_pass form.pc_contact_info .flex-right {
+    justify-content: center;
+  }
+  .items .right_column .manager form.pc_contact_info .infoblock.third {
+    width: 48%;
+  }
+  .items .right_column .manager form.pc_contact_info .flex-right {
+    justify-content: center;
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byit {
     padding: 7px 25px;
@@ -3963,6 +4027,13 @@ button:focus {
   .mainslider .mainSliderDots {
     display: none;
   }
+  .items .left_to_top {
+    flex-direction: column;
+  }
+  .items .left_to_top .login_info,
+  .items .left_to_top .pc_btns {
+    width: 100%;
+  }
   .items .right_column .sorting {
     flex-direction: column;
   }
@@ -4029,6 +4100,24 @@ button:focus {
   }
   .items .right_column .infotabs .tab-slider--body .pagination .pagi img {
     width: 50%;
+  }
+  .items .right_column .change_pass form.pc_contact_info .infoblock.third {
+    width: 100%;
+  }
+  .items .right_column .change_pass form.pc_contact_info .flex-right {
+    justify-content: center;
+  }
+  .items .right_column .manager form.pc_contact_info .infoblock.third {
+    width: 100%;
+  }
+  .items .right_column .manager form.pc_contact_info .flex-right {
+    justify-content: center;
+  }
+  .items .right_column .favorites .item_card {
+    width: 100%;
+  }
+  .items .right_column .favorites .item_card img {
+    width: 100%;
   }
   .brand_information .pagination .pagi {
     font-size: 10px;
