@@ -429,6 +429,8 @@ button:focus {
             .col();
             .size(3);
             .size-md(4);
+            .size-sm(6);
+            .size-xs(12);
 
             display: flex;
             flex-direction: column;
@@ -440,7 +442,7 @@ button:focus {
                 transition: all 0.5s;
                 text-decoration: none;
                 border: 1px solid #30415B;
-                width: 16vw;
+                width: auto;
 
                 .category_img {
                     width: 100%;
@@ -3301,13 +3303,18 @@ button:focus {
     }
 
     .news_block {
-        width: 30%;
+//        width: 30%;
+        .col();
+        .size(4);
+        .size-md(6);
+        .size-sm(12);
 
         padding: 25px;
         background: #ffffff;
         border: 1px solid #CCCCCC;
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
 
         .nb_title {
             margin-bottom: 25px;
@@ -3397,7 +3404,11 @@ button:focus {
     .footer_block {
         .col();
         .size(3);
+        .size-md(6);
+        .size-sm(12);
+
         padding: 0px 20px;
+        margin-bottom: 20px;
 
         .fb_title {
             margin-bottom: 20px;
@@ -4091,6 +4102,108 @@ button:focus {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .top {
+        .location {
+            display: none;
+        }
+
+        .mail {
+            display: none;
+        }
+    }
+
+    .main_catalogue {
+        .categories {
+            .category_block {
+                .block {
+                    .category_title {
+                        h3 {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        .mobile_nav {
+            .searching {
+                display: none;
+            }
+        }
+    }
+
+    .mainslider {
+        .item {
+            .slider_desc {
+                padding: 0 50px;
+
+                .slider_name {
+                    font-size: 30px;
+                }
+
+                .slider_text {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .main_catalogue {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .our_brands {
+        h2 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .top {
+        .phones {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .top {
+        .phones {
+            display: none;
+        }
+
+        .opt {
+            font-size: 8px;
+        }
+
+        .my_cart {
+            .result {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .menu {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 

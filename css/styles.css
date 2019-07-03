@@ -497,12 +497,22 @@ button:focus {
     width: calc(33.333333333333336% - 10px);
   }
 }
+@media screen and (max-width: 500px) {
+  .main_catalogue .categories .category_block {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_catalogue .categories .category_block {
+    width: calc(100% - 10px);
+  }
+}
 .main_catalogue .categories .category_block .block {
   background: #30415B;
   transition: all 0.5s;
   text-decoration: none;
   border: 1px solid #30415B;
-  width: 16vw;
+  width: auto;
 }
 .main_catalogue .categories .category_block .block .category_img {
   width: 100%;
@@ -3013,12 +3023,27 @@ button:focus {
   margin-top: 15px;
 }
 .our_news .news_block {
-  width: 30%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(33.333333333333336% - 10px);
   padding: 25px;
   background: #ffffff;
   border: 1px solid #CCCCCC;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .our_news .news_block {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .our_news .news_block {
+    width: calc(100% - 10px);
+  }
 }
 .our_news .news_block .nb_title {
   margin-bottom: 25px;
@@ -3101,6 +3126,17 @@ button:focus {
   margin-right: 5px;
   width: calc(25% - 10px);
   padding: 0px 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .footer .footer_block {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer .footer_block {
+    width: calc(100% - 10px);
+  }
 }
 .footer .footer_block .fb_title {
   margin-bottom: 20px;
@@ -3618,5 +3654,62 @@ button:focus {
   }
   .footer .footer_block .fb_content .fb_news a {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .top .location {
+    display: none;
+  }
+  .top .mail {
+    display: none;
+  }
+  .main_catalogue .categories .category_block .block .category_title h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .menu {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu .mobile_nav .searching {
+    display: none;
+  }
+  .mainslider .item .slider_desc {
+    padding: 0 50px;
+  }
+  .mainslider .item .slider_desc .slider_name {
+    font-size: 30px;
+  }
+  .mainslider .item .slider_desc .slider_text {
+    font-size: 18px;
+  }
+  .main_catalogue h2 {
+    font-size: 30px;
+  }
+  .our_brands h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .top .phones {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top .phones {
+    display: none;
+  }
+  .top .opt {
+    font-size: 8px;
+  }
+  .top .my_cart .result {
+    font-size: 10px;
+  }
+  .menu {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
