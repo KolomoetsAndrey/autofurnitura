@@ -3969,6 +3969,9 @@ button:focus {
     float: none;
     max-width: 100%;
   }
+  .main_catalogue h2:after {
+    width: 300px;
+  }
   .our_brands h2::after {
     width: 300px;
   }
