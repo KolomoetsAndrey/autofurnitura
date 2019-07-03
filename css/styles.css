@@ -3969,6 +3969,12 @@ button:focus {
     float: none;
     max-width: 100%;
   }
+  .our_brands h2::after {
+    width: 300px;
+  }
+  .our_news h2::after {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 700px) {
   .top .phones {
