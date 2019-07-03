@@ -566,6 +566,180 @@ button:focus {
     }
 }
 
+.news {
+    .left_column {
+        .col();
+        .size(9);
+
+        .article_preview {
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            border: 1px solid #CCCCCC;
+
+            .ap_title {
+                font-size: 30px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+            .time {
+
+                ul {
+                    padding-bottom: 15px;
+
+                    li {
+                        display: inline-flex;
+                        align-items: center;
+                        color: #707070;
+                        font-size: 13px;
+
+                        img {
+                            width: 12px;
+                            height: auto;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+
+            .ap_text {
+                font-size: 14px;
+                color: #777777;
+            }
+    
+            .ap_link {
+                text-align: right;
+                margin-top: 20px;
+    
+                a {
+                    font-size: 14px;
+                    color: #777777;
+                    transition: all 0.5s;
+    
+                    &:hover {
+                        color: #31AAE2;
+                    }
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                .ap_title {
+                    color: #31AAE2;
+                }
+
+                .ap_link {
+                    a {
+                        color: #31AAE2;
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+
+            .pagi {
+                color: #777777;
+                font-size: 18px;
+                background: #ffffff;
+                border: 1px solid #777777;
+                border-radius: 10px;
+                float: left;
+                padding: 10px 16px;
+                text-decoration: none;
+                margin: 0 5px;
+                transition: all 0.5s;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 30px;
+                    height: auto;
+                }
+
+                &.active {
+                    color: #31AAE2;
+                }
+
+                &:hover {
+                    background: #31AAE2;
+                    color: #ffffff;
+                    border: 1px solid #31AAE2;
+                }
+            }
+        }
+    }
+
+    .right_column {
+        .col();
+        .size(3);
+
+        .other_news {
+            .on_title {
+                font-size: 24px;
+                color: #2E3537;
+                border: 1px solid #CCCCCC;
+                padding: 10px 0;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .on_articles {
+                border: 1px solid #CCCCCC;
+                padding: 10px;
+                margin-top: -1px;
+
+                .on_preview {
+                    border-bottom: 1px solid #cccccc;
+                    margin-bottom: 10px;
+
+                    .ona_title {
+                        a {
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            color: #2E3537;
+                            transition: all 0.5s;
+
+                            &:hover {
+                                color: #31AAE2;
+                            }
+                        }
+                    }
+    
+                    .time {
+    
+                        ul {
+                            padding-bottom: 15px;
+        
+                            li {
+                                display: inline-flex;
+                                align-items: center;
+                                color: #707070;
+                                font-size: 13px;
+        
+                                img {
+                                    width: 12px;
+                                    height: auto;
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .items {
     .row {
         justify-content: center;
