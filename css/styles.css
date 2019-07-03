@@ -4282,6 +4282,27 @@ button:focus {
   .footer {
     padding-top: 40px;
   }
+  .animated-modal .full_cart .full_cart_btns li {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .animated-modal .full_cart .full_cart_btns .goto_cart {
+    margin-right: 0;
+  }
+  .animated-modal form .enter {
+    flex-direction: column;
+  }
+  .animated-modal form .enter li {
+    display: block;
+  }
+  .animated-modal form .enter .login {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .animated-modal form .remember li {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 400px) {
   .items .right_column .item_information .item_info .item_rating .rating_desc {
