@@ -2669,6 +2669,224 @@ button:focus {
     }
 }
 
+.contacts {
+    .person_block {
+        .col();
+        .size(3);
+
+        padding: 30px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid #DEDEDE;
+
+        .profession {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .label_one, .label_two, .label_three, .label_four {
+                width: 70px;
+                height: 70px;
+                border: 1px solid #31AAE2;
+                border-radius: 50%;
+                background: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 40px;
+                transition: all 0.5s;
+    
+                img {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+
+            .prof {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .label_contacts {
+            margin-top: auto;
+            text-align: center;
+
+            .name {
+                font-size: 22px;
+                color: #777777;
+                margin-bottom: 20px;
+            }
+
+            .phone {
+                font-size: 18px;
+                color: #2E3537;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+
+            .email {
+                font-size: 14px;
+                color: #31AAE2
+            }
+        }
+
+        &:hover {
+            .profession {
+                .label_one {
+                    background: #31AAE2;
+                    background-image: url(../images/keys-white.png);
+                    background-size: 45%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .label_two {
+                    background: #31AAE2;
+                    background-image: url(../images/boss-white.png);
+                    background-size: 45%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .label_three {
+                    background: #31AAE2;
+                    background-image: url(../images/opt-white.png);
+                    background-size: 45%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .label_four {
+                    background: #31AAE2;
+                    background-image: url(../images/spare-white.png);
+                    background-size: 45%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .adress_block {
+        .col();
+        .size(3);
+
+        padding: 30px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .adress_icon {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .adresslabel_one, .adresslabel_two, .adresslabel_three {
+                width: 130px;
+                height: 130px;
+                border: 1px solid #31AAE2;
+                border-radius: 50%;
+                background: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 40px;
+                transition: all 0.5s;
+    
+                img {
+                    width: 70px;
+                    height: auto;
+                }
+            }
+
+            .adress_text {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .adress_desc {
+            margin-top: auto;
+            text-align: center;
+
+            .adress {
+                font-size: 18px;
+                color: #2E3537;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+        }
+
+        &:hover {
+            .adress_icon {
+                .adresslabel_one {
+                    background: #31AAE2;
+                    background-image: url(../images/adr-white.png);
+                    background-size: 55%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .adresslabel_two {
+                    background: #31AAE2;
+                    background-image: url(../images/phone-white.png);
+                    background-size: 55%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .adresslabel_three {
+                    background: #31AAE2;
+                    background-image: url(../images/mail-white.png);
+                    background-size: 55%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .ourbrands {
     .ourbrands_text {
         font-size: 18px;
@@ -2966,6 +3184,10 @@ button:focus {
         color: #777777; 
         padding: 20px;
     }
+}
+
+.no-top-margin {
+    margin-top: 0;
 }
 
 .animated-modal {

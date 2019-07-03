@@ -2488,6 +2488,198 @@ button:focus {
   color: #ffffff;
   border: 1px solid #31AAE2;
 }
+.contacts .person_block {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(25% - 10px);
+  padding: 30px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #DEDEDE;
+}
+.contacts .person_block .profession {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts .person_block .profession .label_one,
+.contacts .person_block .profession .label_two,
+.contacts .person_block .profession .label_three,
+.contacts .person_block .profession .label_four {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #31AAE2;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  transition: all 0.5s;
+}
+.contacts .person_block .profession .label_one img,
+.contacts .person_block .profession .label_two img,
+.contacts .person_block .profession .label_three img,
+.contacts .person_block .profession .label_four img {
+  width: 30px;
+  height: auto;
+}
+.contacts .person_block .profession .prof {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.contacts .person_block .label_contacts {
+  margin-top: auto;
+  text-align: center;
+}
+.contacts .person_block .label_contacts .name {
+  font-size: 22px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+.contacts .person_block .label_contacts .phone {
+  font-size: 18px;
+  color: #2E3537;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contacts .person_block .label_contacts .email {
+  font-size: 14px;
+  color: #31AAE2;
+}
+.contacts .person_block:hover .profession .label_one {
+  background: #31AAE2;
+  background-image: url(../images/keys-white.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .person_block:hover .profession .label_one img {
+  display: none;
+}
+.contacts .person_block:hover .profession .label_two {
+  background: #31AAE2;
+  background-image: url(../images/boss-white.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .person_block:hover .profession .label_two img {
+  display: none;
+}
+.contacts .person_block:hover .profession .label_three {
+  background: #31AAE2;
+  background-image: url(../images/opt-white.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .person_block:hover .profession .label_three img {
+  display: none;
+}
+.contacts .person_block:hover .profession .label_four {
+  background: #31AAE2;
+  background-image: url(../images/spare-white.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .person_block:hover .profession .label_four img {
+  display: none;
+}
+.contacts .adress_block {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(25% - 10px);
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contacts .adress_block .adress_icon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts .adress_block .adress_icon .adresslabel_one,
+.contacts .adress_block .adress_icon .adresslabel_two,
+.contacts .adress_block .adress_icon .adresslabel_three {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #31AAE2;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  transition: all 0.5s;
+}
+.contacts .adress_block .adress_icon .adresslabel_one img,
+.contacts .adress_block .adress_icon .adresslabel_two img,
+.contacts .adress_block .adress_icon .adresslabel_three img {
+  width: 70px;
+  height: auto;
+}
+.contacts .adress_block .adress_icon .adress_text {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.contacts .adress_block .adress_desc {
+  margin-top: auto;
+  text-align: center;
+}
+.contacts .adress_block .adress_desc .adress {
+  font-size: 18px;
+  color: #2E3537;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_one {
+  background: #31AAE2;
+  background-image: url(../images/adr-white.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_one img {
+  display: none;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_two {
+  background: #31AAE2;
+  background-image: url(../images/phone-white.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_two img {
+  display: none;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_three {
+  background: #31AAE2;
+  background-image: url(../images/mail-white.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacts .adress_block:hover .adress_icon .adresslabel_three img {
+  display: none;
+}
 .ourbrands .ourbrands_text {
   font-size: 18px;
   margin-bottom: 30px;
@@ -2732,6 +2924,9 @@ button:focus {
   font-size: 14px;
   color: #777777;
   padding: 20px;
+}
+.no-top-margin {
+  margin-top: 0;
 }
 .animated-modal {
   overflow: hidden;
