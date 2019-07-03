@@ -2804,6 +2804,17 @@ button:focus {
   justify-content: center;
   cursor: pointer;
   border: 1px solid #DEDEDE;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .contacts .person_block {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .contacts .person_block {
+    width: calc(100% - 10px);
+  }
 }
 .contacts .person_block .profession {
   text-align: center;
@@ -2902,7 +2913,7 @@ button:focus {
   word-wrap: break-word;
   margin-left: 5px;
   margin-right: 5px;
-  width: calc(25% - 10px);
+  width: calc(33.333333333333336% - 10px);
   padding: 30px;
   margin-top: 30px;
   display: flex;
@@ -2910,6 +2921,11 @@ button:focus {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .contacts .adress_block {
+    width: calc(100% - 10px);
+  }
 }
 .contacts .adress_block .adress_icon {
   text-align: center;
