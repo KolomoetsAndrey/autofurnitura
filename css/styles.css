@@ -2195,7 +2195,7 @@ button:focus {
 .items .right_column .favorites .order_history_info p {
   color: #777777;
   font-size: 18px;
-  width: 23%;
+  width: 21%;
 }
 .items .right_column .order_history .order_history_info a,
 .items .right_column .personal_cab .order_history_info a,
@@ -2205,7 +2205,7 @@ button:focus {
   font-size: 18px;
   color: #CCCCCC;
   transition: all 0.5s;
-  width: 10%;
+  width: 16%;
   text-align: right;
 }
 .items .right_column .order_history .order_history_info a:hover,
@@ -3858,7 +3858,8 @@ button:focus {
   }
   .items .right_column .personal_cab,
   .items .right_column .change_pass,
-  .items .right_column .manager {
+  .items .right_column .manager,
+  .items .right_column .favorites {
     padding-left: 0;
     padding-right: 0;
   }
@@ -3911,6 +3912,17 @@ button:focus {
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byit {
     padding: 7px 25px;
+  }
+  .items .right_column .order_history .order_history_info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .items .right_column .order_history .order_history_info p,
+  .items .right_column .order_history .order_history_info a {
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 5px;
   }
   .brand_information .brand_description img {
     float: none;
