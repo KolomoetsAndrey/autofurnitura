@@ -3245,6 +3245,8 @@ button:focus {
     .brands_block {
         .col();
         .size(3);
+        .size-sm(6);
+        .size-xs(12);
 
         padding: 20px 0;
         display: flex;
@@ -4254,6 +4256,14 @@ button:focus {
             }
         }
     }
+
+    .ourbrands {
+        .brands_block {
+            img {
+                max-height: 73px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -4269,6 +4279,14 @@ button:focus {
 
         .right_column {
             width: 100%;
+        }
+    }
+
+    .ourbrands {
+        .brands_block {
+            img {
+                max-height: 68px;
+            }
         }
     }
 }
