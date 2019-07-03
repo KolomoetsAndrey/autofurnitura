@@ -556,6 +556,20 @@ button:focus {
   margin-bottom: 40px;
   margin-top: 15px;
 }
+.our_brands_about .brands_title {
+  justify-content: center;
+  margin-top: 70px;
+}
+.our_brands_about h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #2E3537;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.our_brands_about h2 .blue {
+  color: #31AAE2;
+}
 .brands_catalogue {
   margin-bottom: 125px;
 }
@@ -2804,6 +2818,36 @@ button:focus {
   color: #ffffff;
   background: #31AAE2;
   cursor: pointer;
+}
+.about_us {
+  margin-bottom: 70px;
+}
+.about_us .our_team_info {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(50% - 10px);
+  padding-right: 20px;
+}
+.about_us .our_team_info h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about_us .our_team_info h2 span.blue {
+  color: #31AAE2;
+}
+.about_us .our_team_info .our_team_desc {
+  font-size: 14px;
+  line-height: 25px;
+}
+.about_us .our_team_photo {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: calc(50% - 10px);
+  padding-left: 20px;
 }
 .footer {
   background: #2E3537;
