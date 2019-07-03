@@ -4256,6 +4256,20 @@ button:focus {
   .news .left_column .testimonial form.testimonial_form .send_btn {
     text-align: center;
   }
+  .news .left_column .article_preview .ap_title {
+    font-size: 20px;
+  }
+  .news .left_column .pagination .pagi {
+    font-size: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin: 2px;
+  }
+  .news .left_column .pagination .pagi img {
+    width: 50%;
+  }
   .footer {
     padding-top: 40px;
   }
