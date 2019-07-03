@@ -611,6 +611,7 @@ button:focus {
   padding: 40px 20px;
   margin-bottom: 20px;
   border: 1px solid #CCCCCC;
+  background: #ffffff;
 }
 .news .left_column .article_preview .ap_title {
   font-size: 30px;
@@ -690,12 +691,113 @@ button:focus {
   color: #ffffff;
   border: 1px solid #31AAE2;
 }
+.news .left_column .article {
+  background: #ffffff;
+  padding: 30px 20px;
+  border: 1px solid #CCCCCC;
+}
+.news .left_column .article .article_header .art_title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.news .left_column .article .article_header .time ul {
+  padding-bottom: 15px;
+}
+.news .left_column .article .article_header .time ul li {
+  display: inline-flex;
+  align-items: center;
+  color: #707070;
+  font-size: 13px;
+}
+.news .left_column .article .article_header .time ul li img {
+  width: 12px;
+  height: auto;
+  margin-right: 5px;
+}
+.news .left_column .article .article_body .ab_text {
+  font-size: 14px;
+}
+.news .left_column .testimonial {
+  margin-top: 30px;
+  padding: 60px;
+  border: 1px solid #CCCCCC;
+  background: #ffffff;
+}
+.news .left_column .testimonial .testimonial_title {
+  font-size: 30px;
+  color: #2E3537;
+  margin-bottom: 20px;
+}
+.news .left_column .testimonial .testimonial_title span.blue {
+  color: #31AAE2;
+}
+.news .left_column .testimonial form.testimonial_form .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.news .left_column .testimonial form.testimonial_form .flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.news .left_column .testimonial form.testimonial_form input {
+  width: 47%;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+.news .left_column .testimonial form.testimonial_form textarea {
+  width: 97%;
+  padding: 5px 10px;
+}
+.news .left_column .testimonial form.testimonial_form .send_btn {
+  text-align: right;
+  margin-top: 20px;
+}
+.news .left_column .testimonial form.testimonial_form .send_btn button.comment {
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #31AAE2;
+  background: #31AAE2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  cursor: pointer;
+  padding: 5px 50px;
+  transition: all 0.5s;
+}
+.news .left_column .testimonial form.testimonial_form .send_btn button.comment:hover {
+  color: #31AAE2;
+  background: #ffffff;
+}
+.news .left_column .art_toggle_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.news .left_column .art_toggle_btns .prew_art a,
+.news .left_column .art_toggle_btns .next_art a {
+  color: #CCCCCC;
+  font-size: 14px;
+  text-decoration: none;
+  width: 30%;
+  transition: all 0.5s;
+}
+.news .left_column .art_toggle_btns .prew_art a i,
+.news .left_column .art_toggle_btns .next_art a i {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.news .left_column .art_toggle_btns .prew_art a:hover,
+.news .left_column .art_toggle_btns .next_art a:hover {
+  color: #31AAE2;
+}
 .news .right_column {
   box-sizing: border-box;
   word-wrap: break-word;
   margin-left: 5px;
   margin-right: 5px;
   width: calc(25% - 10px);
+}
+.news .right_column .other_news {
+  background: #ffffff;
 }
 .news .right_column .other_news .on_title {
   font-size: 24px;

@@ -575,6 +575,7 @@ button:focus {
             padding: 40px 20px;
             margin-bottom: 20px;
             border: 1px solid #CCCCCC;
+            background: #ffffff;
 
             .ap_title {
                 font-size: 30px;
@@ -675,6 +676,132 @@ button:focus {
                 }
             }
         }
+
+        .article {
+            background: #ffffff;
+            padding: 30px 20px;
+            border: 1px solid #CCCCCC;
+
+            .article_header {
+                .art_title {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+
+                .time {
+    
+                    ul {
+                        padding-bottom: 15px;
+    
+                        li {
+                            display: inline-flex;
+                            align-items: center;
+                            color: #707070;
+                            font-size: 13px;
+    
+                            img {
+                                width: 12px;
+                                height: auto;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .article_body {
+                .ab_text {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .testimonial {
+            margin-top: 30px;
+            padding: 60px;
+            border: 1px solid #CCCCCC;
+            background: #ffffff;
+
+            .testimonial_title {
+                font-size: 30px;
+                color: #2E3537;
+                margin-bottom: 20px;
+
+                span.blue {
+                    color: #31AAE2;
+                }
+            }
+
+            form.testimonial_form {
+                .row {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                .flex-between {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                input {
+                    width: 47%;
+                    margin-bottom: 20px;
+                    padding: 5px 10px;
+                }
+
+                textarea {
+                    width: 97%;
+                    padding: 5px 10px;
+                }
+
+                .send_btn {
+                    text-align: right;
+                    margin-top: 20px;
+
+                    button.comment {
+                        font-size: 14px;
+                        color: #ffffff;
+                        border: 1px solid #31AAE2;
+                        background: #31AAE2;
+                        font-family: @condensed;
+                        cursor: pointer;
+                        padding: 5px 50px;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            color: #31AAE2;
+                            background: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .art_toggle_btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .prew_art, .next_art {
+                a {
+                    color: #CCCCCC;
+                    font-size: 14px;
+                    text-decoration: none;
+                    width: 30%;
+                    transition: all 0.5s;
+                    
+                    i {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    &:hover {
+                        color: #31AAE2;
+                    }
+                }
+            }
+        }
     }
 
     .right_column {
@@ -682,6 +809,8 @@ button:focus {
         .size(3);
 
         .other_news {
+            background: #ffffff;
+
             .on_title {
                 font-size: 24px;
                 color: #2E3537;
@@ -3258,10 +3387,6 @@ button:focus {
         .size(6);
 
         padding-left: 20px;
-
-        img {
-
-        }
     }
 }
 
