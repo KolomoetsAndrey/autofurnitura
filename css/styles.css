@@ -4081,6 +4081,10 @@ button:focus {
   .items .right_column .cart_item .cart_item_name .cart_item_oneprice {
     font-size: 12px;
   }
+  .items .right_column .sum_price {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .footer {
     padding-top: 40px;
   }
