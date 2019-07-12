@@ -3865,6 +3865,7 @@ button:focus {
   .menu {
     padding-left: 85px;
     padding-right: 85px;
+    height: 50px;
   }
   .items .left_column {
     display: none;
@@ -3908,9 +3909,6 @@ button:focus {
   }
 }
 @media screen and (max-width: 768px) {
-  .menu .mobile_nav .searching {
-    display: none;
-  }
   .mainslider .item .slider_desc {
     padding: 0 50px;
   }
@@ -4075,6 +4073,9 @@ button:focus {
   .menu {
     padding-left: 40px;
     padding-right: 40px;
+  }
+  .menu .mobile_nav {
+    padding-left: 0;
   }
   .mainslider {
     margin-bottom: 20px;
