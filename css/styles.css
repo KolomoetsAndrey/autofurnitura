@@ -257,7 +257,6 @@ button:focus {
   text-transform: uppercase;
   background: #2E3537;
   border: 1px solid #ffffff;
-  border-radius: 20px;
   padding: 3px 15px;
   color: #ffffff;
   cursor: pointer;
