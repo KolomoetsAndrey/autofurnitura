@@ -1,12 +1,68 @@
 @import "smart-grid.less";
 
+/* font-family: "ArialRegular"; */
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "ArialBold";
+    src: url("../fonts/ArialBold/ArialBold.eot");
+    src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialItalic"; */
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic/ArialItalic.eot");
+    src: url("../fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBlack"; */
+@font-face {
+    font-family: "ArialBlack";
+    src: url("../fonts/ArialBlack/ArialBlack.eot");
+    src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+    font-family: "ArialBoldItalic";
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot");
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 @condensed: 'Open Sans Condensed', sans-serif;
-@opensans: 'Open Sans', sans-serif;
+// @opensans: 'Open Sans', sans-serif;
+@arial: Arial;
 
 .reset();
 
 html, body {
-    font-family: @condensed;
+    font-family: @arial;
     background: #FAFAFA;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -66,6 +122,12 @@ button:focus {
 .top {
     background: #2E3537;
     padding: 14px 0;
+    // font-family: @arial;
+
+    .container {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
 
     .row {
         justify-content: space-between;
@@ -149,22 +211,23 @@ button:focus {
     }
 
     .opt {
-        font-family: @condensed;
+        // font-family: @arial;
         font-size: 12px;
         text-transform: uppercase;
         background: #2E3537;
         border: 1px solid #ffffff;
         //border-radius: 20px;
-        padding: 3px 15px;
+        padding: 3px 5px;
         color: #ffffff;
         cursor: pointer;
-        margin: auto 0;
+        // margin: auto 0;
+        margin-right: 10px;
     }
 
     .my_cart {
         .result {
             display: inherit;
-            font-family: @opensans;
+            // font-family: @opensans;
             font-weight: 600;
             color: #ffffff;
         }
@@ -190,6 +253,7 @@ button:focus {
                 border-radius: 100%;
                 bottom: 0;
                 left: -6px;
+                padding-top: 1px;
             }
         }
     }
@@ -217,6 +281,8 @@ button:focus {
     }
 
     .display_nav {
+        // font-family: @arial;
+
         .topnav {
             height: 80px;
             display: flex;
@@ -230,7 +296,7 @@ button:focus {
             display: block;
             color: #2E3537;
             text-align: center;
-            padding: 27px 10px;
+            padding: 27px 5px;
             text-decoration: none;
             font-size: 14px;
             font-weight: 600;
@@ -264,7 +330,7 @@ button:focus {
             border: none;
             outline: none;
             color: #2E3537;
-            padding: 27px 10px;
+            padding: 27px 5px;
             background-color: inherit;
             font-family: inherit;
             margin: 0;
@@ -321,6 +387,7 @@ button:focus {
     .search {
         display: flex;
         align-items: center;
+        // font-family: @arial;
 
         input {
             font-size: 12px;
@@ -339,7 +406,7 @@ button:focus {
             height: 25px;
             padding: 0 25px;
             text-transform: uppercase;
-            font-family: @condensed;
+            // font-family: @condensed;
         }
     }
 }
@@ -409,6 +476,7 @@ button:focus {
         font-weight: 300;
         color: #2E3537;
         text-align: center;
+        font-family: @condensed;
 
         .blue {
             color: #31AAE2;
@@ -485,6 +553,7 @@ button:focus {
         font-weight: 300;
         color: #2E3537;
         text-align: center;
+        font-family: @condensed;
 
         .blue {
             color: #31AAE2;
@@ -501,6 +570,7 @@ button:focus {
     }
 
     .slogan {
+        // font-family: @arial;
         width: 100%;
         text-align: center;
         color: #777777;
@@ -522,6 +592,7 @@ button:focus {
         color: #2E3537;
         text-align: center;
         margin-bottom: 10px;
+        font-family: @condensed;
 
         .blue {
             color: #31AAE2;
@@ -545,9 +616,12 @@ button:focus {
         text-transform: uppercase;
         color: #ffffff;
         width: 100%;
+        font-family: @condensed;
     }
 
     ul {
+        // font-family: @arial;
+
         li {
             display: inline-flex;
             color: #ffffff;
@@ -583,6 +657,8 @@ button:focus {
                 font-size: 30px;
                 text-transform: uppercase;
                 text-decoration: none;
+                font-family: @condensed;
+                color: #2E3537;
             }
 
             .time {
@@ -653,7 +729,8 @@ button:focus {
                 border: 1px solid #777777;
                 border-radius: 10px;
                 float: left;
-                padding: 10px 16px;
+                padding: 10px;
+                justify-content: center;
                 text-decoration: none;
                 margin: 0 5px;
                 transition: all 0.5s;
@@ -688,6 +765,7 @@ button:focus {
                 .art_title {
                     font-size: 30px;
                     text-transform: uppercase;
+                    font-family: @condensed;
                 }
 
                 .time {
@@ -728,6 +806,7 @@ button:focus {
                 font-size: 30px;
                 color: #2E3537;
                 margin-bottom: 20px;
+                font-family: @condensed;
 
                 span.blue {
                     color: #31AAE2;
@@ -765,7 +844,7 @@ button:focus {
                         color: #ffffff;
                         border: 1px solid #31AAE2;
                         background: #31AAE2;
-                        font-family: @condensed;
+                        // font-family: @condensed;
                         cursor: pointer;
                         padding: 5px 50px;
                         transition: all 0.5s;
@@ -823,6 +902,7 @@ button:focus {
                 text-transform: uppercase;
                 font-weight: 600;
                 text-align: center;
+                font-family: @condensed;
             }
 
             .on_articles {
@@ -893,6 +973,7 @@ button:focus {
                 padding: 10px 0;
                 text-transform: uppercase;
                 font-weight: 600;
+                font-family: @condensed;
             }
 
             .your_liked {
@@ -908,6 +989,7 @@ button:focus {
                 border: 1px solid #CCCCCC;
                 padding: 10px;
                 margin-top: -1px;
+                // font-family: @arial;
 
                 .liked_item {
                     ul {
@@ -953,6 +1035,7 @@ button:focus {
                 padding: 10px 0;
                 text-transform: uppercase;
                 font-weight: 600;
+                font-family: @condensed;
             }
 
             ul {
@@ -960,16 +1043,18 @@ button:focus {
                 padding: 10px;
                 border: 1px solid #CCCCCC;
                 margin-top: -1px;
+                // font-family: @arial;
 
                 li {
                     border-bottom: 1px solid #E1E1E1;
                     margin-bottom: 5px;
+                    padding-bottom: 5px;
 
                     a {
                         color: #2E3537;
                         transition: all 0.5s;
                         text-decoration: none;
-                        font-size: 18px;
+                        font-size: 16px;
 
                         &:hover {
                             color: #31AAE2;
@@ -991,6 +1076,7 @@ button:focus {
                 padding: 10px 0;
                 text-transform: uppercase;
                 font-weight: 600;
+                font-family: @condensed;
             }
 
             .our_brands_logos {
@@ -1013,7 +1099,7 @@ button:focus {
                     background: #ffffff;
                     border: none;
                     color: #31AAE2;
-                    font-family: @condensed;
+                    // font-family: @condensed;
                     font-size: 18px;
                     cursor: pointer;
                 }
@@ -1054,7 +1140,7 @@ button:focus {
                         background: #31AAE2;
                         font-size: 14px;
                         padding: 5px 10px;
-                        font-family: @condensed;
+                        // font-family: @condensed;
                         cursor: pointer;
                         text-transform: uppercase;
                         transition: all 0.5s;
@@ -1221,7 +1307,7 @@ button:focus {
                             border: 1px solid #31AAE2;
                             height: 50px;
                             cursor: pointer;
-                            font-family: @condensed;
+                            // font-family: @condensed;
                             font-weight: 600;
                             transition: all 0.5s;
 
@@ -1253,7 +1339,8 @@ button:focus {
                 border: 1px solid #777777;
                 border-radius: 10px;
                 float: left;
-                padding: 10px 16px;
+                padding: 10px;
+                justify-content: center;
                 text-decoration: none;
                 margin: 0 5px;
                 transition: all 0.5s;
@@ -1309,6 +1396,7 @@ button:focus {
                     font-size: 30px;
                     margin-bottom: 5px;
                     margin-top: -10px;
+                    font-family: @condensed;
                 }
 
                 .item_rating {
@@ -1488,7 +1576,7 @@ button:focus {
                                 color: #ffffff;
                                 background: #31AAE2;
                                 border: 1px solid #31AAE2;
-                                font-family: @condensed;
+                                // font-family: @condensed;
                                 cursor: pointer;
                                 transition: all 0.5s;
                                 padding: 7px 50px;
@@ -1504,7 +1592,7 @@ button:focus {
                                 color: #31AAE2;
                                 background: #ffffff;
                                 border: 1px solid #31AAE2;
-                                font-family: @condensed;
+                                // font-family: @condensed;
                                 cursor: pointer;
                                 transition: all 0.5s;
                                 padding: 7px 25px;
@@ -1925,7 +2013,7 @@ button:focus {
                                     color: #ffffff;
                                     border: 1px solid #31AAE2;
                                     background: #31AAE2;
-                                    font-family: @condensed;
+                                    // font-family: @condensed;
                                     cursor: pointer;
                                     padding: 5px 50px;
                                     transition: all 0.5s;
@@ -1953,7 +2041,8 @@ button:focus {
                         border: 1px solid #777777;
                         border-radius: 10px;
                         float: left;
-                        padding: 10px 16px;
+                        padding: 10px;
+                        justify-content: center;
                         text-decoration: none;
                         margin: 0 5px;
                         transition: all 0.5s;
@@ -1984,6 +2073,7 @@ button:focus {
         .cart_title {
             font-size: 24px;
             padding-left: 20px;
+            font-family: @condensed;
         }
 
         .cart_item {
@@ -2015,6 +2105,8 @@ button:focus {
                     font-size: 16px;
                     font-weight: 600;
                     margin-bottom: 10px;
+                    color: #2E3537;
+                    text-decoration: none;
                 }
 
                 .cart_item_material {
@@ -2039,6 +2131,7 @@ button:focus {
                     padding: 5px;
                     border: 1px solid #CCCCCC;
                     background: #ffffff;
+                    margin-right: 20px;
     
                     button {
                         cursor: pointer;
@@ -2131,6 +2224,7 @@ button:focus {
             .ot_title {
                 margin-bottom: 20px;
                 font-size: 24px;
+                font-family: @condensed;
             }
 
             .tab-slider--nav {
@@ -2201,6 +2295,7 @@ button:focus {
                     .cont_info {
                         font-size: 20px;
                         margin-bottom: 20px;
+                        font-family: @condensed;
                     }
     
                     .cont_info_form {
@@ -2231,7 +2326,7 @@ button:focus {
                                 position: relative;
                                 cursor: pointer;
                                 line-height: 20px;
-                                font-size: 14px;
+                                font-size: 12px;
                                 margin: 0 15px 0 0;
                             }
         
@@ -2317,7 +2412,7 @@ button:focus {
                                 position: relative;
                                 cursor: pointer;
                                 line-height: 20px;
-                                font-size: 14px;
+                                font-size: 12px;
                                 margin: 0 15px 0 0;
                             }
         
@@ -2409,7 +2504,7 @@ button:focus {
                             color: #ffffff;
                             font-size: 16px;
                             font-weight: 600;
-                            font-family: @condensed;
+                            // font-family: @condensed;
                             width: 100%;
                             cursor: pointer;
                             padding: 5px;
@@ -2438,7 +2533,7 @@ button:focus {
                             color: #ffffff;
                             font-size: 16px;
                             font-weight: 600;
-                            font-family: @condensed;
+                            // font-family: @condensed;
                             cursor: pointer;
                             padding: 5px 50px;
                             margin: 0 auto;
@@ -2463,6 +2558,7 @@ button:focus {
                 font-size: 25px;
                 margin-bottom: 30px;
                 font-weight: 600;
+                font-family: @condensed;
             }
 
             .order_history_info {
@@ -2538,7 +2634,7 @@ button:focus {
                     margin-right: 20px;
                     font-size: 14px;
                     cursor: pointer;
-                    font-family: @condensed;
+                    // font-family: @condensed;
                     transition: all 0.5s;
 
                     &:hover {
@@ -2554,7 +2650,7 @@ button:focus {
                     padding: 5px 30px;
                     font-size: 14px;
                     cursor: pointer;
-                    font-family: @condensed;
+                    // font-family: @condensed;
                     transition: all 0.5s;
 
                     &:hover {
@@ -2646,7 +2742,7 @@ button:focus {
                                 border: 1px solid #31AAE2;
                                 height: 50px;
                                 cursor: pointer;
-                                font-family: @condensed;
+                                // font-family: @condensed;
                                 font-weight: 600;
                                 transition: all 0.5s;
     
@@ -2694,6 +2790,7 @@ button:focus {
 
                 .oh_title {
                     padding-bottom: 5px;
+                    font-family: @condensed;
                 }
             }
 
@@ -2802,7 +2899,7 @@ button:focus {
                             border: 1px solid #31AAE2;
                             height: 50px;
                             cursor: pointer;
-                            font-family: @condensed;
+                            // font-family: @condensed;
                             font-weight: 600;
                             transition: all 0.5s;
     
@@ -2837,6 +2934,7 @@ button:focus {
                     font-size: 18px;
                     color: #31AAE2;
                     margin-bottom: 40px;
+                    font-family: @condensed;
                 }
 
                 ul {
@@ -2855,6 +2953,7 @@ button:focus {
                     font-size: 18px;
                     color: #31AAE2;
                     margin-bottom: 40px;
+                    font-family: @condensed;
                 }
 
                 ul {
@@ -2976,7 +3075,7 @@ button:focus {
                         border: 1px solid #31AAE2;
                         height: 50px;
                         cursor: pointer;
-                        font-family: @condensed;
+                        // font-family: @condensed;
                         font-weight: 600;
                         transition: all 0.5s;
 
@@ -3008,7 +3107,8 @@ button:focus {
             border: 1px solid #777777;
             border-radius: 10px;
             float: left;
-            padding: 10px 16px;
+            padding: 10px;
+            justify-content: center;
             text-decoration: none;
             margin: 0 5px;
             transition: all 0.5s;
@@ -3094,7 +3194,7 @@ button:focus {
             }
 
             .phone {
-                font-size: 18px;
+                font-size: 16px;
                 color: #2E3537;
                 font-weight: 600;
                 margin-bottom: 20px;
@@ -3327,6 +3427,7 @@ button:focus {
         font-weight: 300;
         color: #2E3537;
         text-align: center;
+        font-family: @condensed;
 
         .blue {
             color: #31AAE2;
@@ -3343,6 +3444,7 @@ button:focus {
     }
 
     .slogan {
+        // font-family: @arial;
         width: 100%;
         text-align: center;
         color: #777777;
@@ -3367,6 +3469,7 @@ button:focus {
 
         .nb_title {
             margin-bottom: 25px;
+            font-family: @condensed;
 
             a {
                 font-size: 22px;
@@ -3377,6 +3480,7 @@ button:focus {
         }
 
         .nb_text {
+            // font-family: @arial;
             color: #777777;
             font-size: 14px;
             margin-bottom: 30px;
@@ -3392,7 +3496,7 @@ button:focus {
             text-align: center;
 
             button {
-                font-family: @condensed;
+                // font-family: @condensed;
                 font-size: 16px;
                 color: #31AAE2;
                 background: #ffffff;
@@ -3427,6 +3531,7 @@ button:focus {
         h2 {
             font-size: 40px;
             margin-bottom: 20px;
+            font-family: @condensed;
 
             span.blue {
                 color: #31AAE2;
@@ -3469,6 +3574,7 @@ button:focus {
                 font-size: 22px;
                 color: #ffffff;
                 text-transform: uppercase;
+                font-family: @condensed;
             }
         }
 
@@ -3476,6 +3582,7 @@ button:focus {
             font-size: 13px;
             color: #ffffff82;
             margin-bottom: 30px;
+            // font-family: @arial;
         }
 
         .fb_content {
@@ -3520,7 +3627,7 @@ button:focus {
                     background: #31AAE2;
                     color: #ffffff;
                     border: 1px solid #31AAE2;
-                    font-family: @condensed;
+                    // font-family: @condensed;
                     font-size: 12px;
                     padding: 2px 20px;
                     margin: 0 auto;
@@ -3641,7 +3748,7 @@ button:focus {
                 color: #ffffff;
                 font-size: 14px;
                 padding: 7px 25px;
-                font-family: @condensed;
+                // font-family: @condensed;
                 cursor: pointer;
                 transition: all 0.5s;
                 margin-right: 100px;
@@ -3723,7 +3830,7 @@ button:focus {
             margin-top: 10px;
             margin: 0 auto;
             margin-bottom: 10px;
-            font-family: @condensed;
+            // font-family: @condensed;
             cursor: pointer;
             transition: all 0.5s;
 
@@ -3784,7 +3891,7 @@ button:focus {
                 color: #ffffff;
                 font-size: 14px;
                 padding: 7px 25px;
-                font-family: @condensed;
+                // font-family: @condensed;
                 cursor: pointer;
                 transition: all 0.5s;
                 margin-right: 15px;
@@ -3802,7 +3909,7 @@ button:focus {
                 color: #ffffff;
                 font-size: 14px;
                 padding: 7px 25px;
-                font-family: @condensed;
+                // font-family: @condensed;
                 cursor: pointer;
                 transition: all 0.5s;
                 
@@ -3834,7 +3941,7 @@ button:focus {
             background: transparent;
             color: #999999;
             font-size: 14px;
-            font-family: @condensed;
+            // font-family: @condensed;
             cursor: pointer;
             transition: all 0.5s;
             
@@ -4052,6 +4159,12 @@ button:focus {
 }
 
 @media screen and (max-width: 1200px) {
+    .top {
+        .container {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
     .menu {
         padding-left: 120px;
         padding-right: 120px;
@@ -4329,6 +4442,10 @@ button:focus {
 
 @media screen and (max-width: 1024px) {
     .top {
+        .container {
+            padding-left: 120px;
+            padding-right: 120px;
+        }
         .location {
             display: none;
         }
@@ -4425,6 +4542,12 @@ button:focus {
 }
 
 @media screen and (max-width: 900px) {
+    .top {
+        .container {
+            padding-left: 85px;
+            padding-right: 85px;
+        }
+    }
     .menu {
         padding-left: 85px;
         padding-right: 85px;
@@ -4480,6 +4603,12 @@ button:focus {
 }
 
 @media screen and (max-width: 768px) {
+    .top {
+        .phones {
+            display: none;
+        }
+    }
+
     .menu {
         .mobile_nav {
             .searching {
@@ -4757,6 +4886,10 @@ button:focus {
 
 @media screen and (max-width: 500px) {
     .top {
+        .container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
         .phones {
             display: none;
         }
@@ -5140,6 +5273,12 @@ button:focus {
 }
 
 @media screen and (max-width: 400px) {
+    .top {
+        .container {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
     .items {
         .right_column {
             .item_information {

@@ -1,3 +1,43 @@
+/* font-family: "ArialRegular"; */
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular/ArialRegular.eot");
+  src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialRegular/ArialRegular.woff") format("woff"), url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold/ArialBold.eot");
+  src: url("../fonts/ArialBold/ArialBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBold/ArialBold.woff") format("woff"), url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ArialItalic"; */
+@font-face {
+  font-family: "ArialItalic";
+  src: url("../fonts/ArialItalic/ArialItalic.eot");
+  src: url("../fonts/ArialItalic/ArialItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialItalic/ArialItalic.woff") format("woff"), url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ArialBlack"; */
+@font-face {
+  font-family: "ArialBlack";
+  src: url("../fonts/ArialBlack/ArialBlack.eot");
+  src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBlack/ArialBlack.woff") format("woff"), url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+  font-family: "ArialBoldItalic";
+  src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot");
+  src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"), url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 body,
 div,
 dl,
@@ -97,7 +137,7 @@ img {
 }
 html,
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: Arial;
   background: #FAFAFA;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
@@ -186,6 +226,10 @@ button:focus {
   background: #2E3537;
   padding: 14px 0;
 }
+.top .container {
+  padding-left: 175px;
+  padding-right: 175px;
+}
 .top .row {
   justify-content: space-between;
   align-items: center;
@@ -252,19 +296,17 @@ button:focus {
   margin-right: 10px;
 }
 .top .opt {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   background: #2E3537;
   border: 1px solid #ffffff;
-  padding: 3px 15px;
+  padding: 3px 5px;
   color: #ffffff;
   cursor: pointer;
-  margin: auto 0;
+  margin-right: 10px;
 }
 .top .my_cart .result {
   display: inherit;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #ffffff;
 }
@@ -288,6 +330,7 @@ button:focus {
   border-radius: 100%;
   bottom: 0;
   left: -6px;
+  padding-top: 1px;
 }
 .menu {
   display: flex;
@@ -318,7 +361,7 @@ button:focus {
   display: block;
   color: #2E3537;
   text-align: center;
-  padding: 27px 10px;
+  padding: 27px 5px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -345,7 +388,7 @@ button:focus {
   border: none;
   outline: none;
   color: #2E3537;
-  padding: 27px 10px;
+  padding: 27px 5px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -411,7 +454,6 @@ button:focus {
   height: 25px;
   padding: 0 25px;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 .mainslider {
   margin-bottom: 65px;
@@ -468,6 +510,7 @@ button:focus {
   font-weight: 300;
   color: #2E3537;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .main_catalogue h2 .blue {
   color: #31AAE2;
@@ -544,6 +587,7 @@ button:focus {
   font-weight: 300;
   color: #2E3537;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .our_brands h2 .blue {
   color: #31AAE2;
@@ -574,6 +618,7 @@ button:focus {
   color: #2E3537;
   text-align: center;
   margin-bottom: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .our_brands_about h2 .blue {
   color: #31AAE2;
@@ -593,6 +638,7 @@ button:focus {
   text-transform: uppercase;
   color: #ffffff;
   width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .breadcrumbs ul li {
   display: inline-flex;
@@ -630,6 +676,8 @@ button:focus {
   font-size: 30px;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2E3537;
 }
 .news .left_column .article_preview .time ul {
   padding-bottom: 15px;
@@ -683,7 +731,8 @@ button:focus {
   border: 1px solid #777777;
   border-radius: 10px;
   float: left;
-  padding: 10px 16px;
+  padding: 10px;
+  justify-content: center;
   text-decoration: none;
   margin: 0 5px;
   transition: all 0.5s;
@@ -712,6 +761,7 @@ button:focus {
 .news .left_column .article .article_header .art_title {
   font-size: 30px;
   text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .news .left_column .article .article_header .time ul {
   padding-bottom: 15px;
@@ -740,6 +790,7 @@ button:focus {
   font-size: 30px;
   color: #2E3537;
   margin-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .news .left_column .testimonial .testimonial_title span.blue {
   color: #31AAE2;
@@ -770,7 +821,6 @@ button:focus {
   color: #ffffff;
   border: 1px solid #31AAE2;
   background: #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   padding: 5px 50px;
   transition: all 0.5s;
@@ -826,6 +876,7 @@ button:focus {
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .news .right_column .other_news .on_articles {
   border: 1px solid #CCCCCC;
@@ -881,6 +932,7 @@ button:focus {
   padding: 10px 0;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .left_column .liked .your_liked {
   padding: 15px;
@@ -929,6 +981,7 @@ button:focus {
   padding: 10px 0;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .left_column .categories ul {
   text-align: left;
@@ -939,12 +992,13 @@ button:focus {
 .items .left_column .categories ul li {
   border-bottom: 1px solid #E1E1E1;
   margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 .items .left_column .categories ul li a {
   color: #2E3537;
   transition: all 0.5s;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 .items .left_column .categories ul li a:hover {
   color: #31AAE2;
@@ -961,6 +1015,7 @@ button:focus {
   padding: 10px 0;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .left_column .our_brands .our_brands_logos {
   text-align: center;
@@ -980,7 +1035,6 @@ button:focus {
   background: #ffffff;
   border: none;
   color: #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   cursor: pointer;
 }
@@ -1013,7 +1067,6 @@ button:focus {
   background: #31AAE2;
   font-size: 14px;
   padding: 5px 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   text-transform: uppercase;
   transition: all 0.5s;
@@ -1155,7 +1208,6 @@ button:focus {
   border: 1px solid #31AAE2;
   height: 50px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -1179,7 +1231,8 @@ button:focus {
   border: 1px solid #777777;
   border-radius: 10px;
   float: left;
-  padding: 10px 16px;
+  padding: 10px;
+  justify-content: center;
   text-decoration: none;
   margin: 0 5px;
   transition: all 0.5s;
@@ -1227,6 +1280,7 @@ button:focus {
   font-size: 30px;
   margin-bottom: 5px;
   margin-top: -10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .item_information .item_info .item_rating {
   display: flex;
@@ -1375,7 +1429,6 @@ button:focus {
   color: #ffffff;
   background: #31AAE2;
   border: 1px solid #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
   padding: 7px 50px;
@@ -1389,7 +1442,6 @@ button:focus {
   color: #31AAE2;
   background: #ffffff;
   border: 1px solid #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
   padding: 7px 25px;
@@ -1733,7 +1785,6 @@ button:focus {
   color: #ffffff;
   border: 1px solid #31AAE2;
   background: #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   padding: 5px 50px;
   transition: all 0.5s;
@@ -1755,7 +1806,8 @@ button:focus {
   border: 1px solid #777777;
   border-radius: 10px;
   float: left;
-  padding: 10px 16px;
+  padding: 10px;
+  justify-content: center;
   text-decoration: none;
   margin: 0 5px;
   transition: all 0.5s;
@@ -1779,6 +1831,7 @@ button:focus {
 .items .right_column .cart_title {
   font-size: 24px;
   padding-left: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .cart_item {
   margin-top: 40px;
@@ -1805,6 +1858,8 @@ button:focus {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #2E3537;
+  text-decoration: none;
 }
 .items .right_column .cart_item .cart_item_name .cart_item_material {
   font-size: 14px;
@@ -1823,6 +1878,7 @@ button:focus {
   padding: 5px;
   border: 1px solid #CCCCCC;
   background: #ffffff;
+  margin-right: 20px;
 }
 .items .right_column .cart_item .cart_item_pm .plus-minus-input button {
   cursor: pointer;
@@ -1898,6 +1954,7 @@ button:focus {
 .items .right_column .order_tabs .ot_title {
   margin-bottom: 20px;
   font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .order_tabs .tab-slider--nav {
   width: 100%;
@@ -1958,6 +2015,7 @@ button:focus {
 .items .right_column .order_tabs .tab-slider--body .internal_body .cont_info {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .order_tabs .tab-slider--body .internal_body .cont_info_form {
   display: flex;
@@ -1986,7 +2044,7 @@ button:focus {
   position: relative;
   cursor: pointer;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 15px 0 0;
 }
 .items .right_column .order_tabs .tab-slider--body .internal_body .payments .cntr .radio .label {
@@ -2060,7 +2118,7 @@ button:focus {
   position: relative;
   cursor: pointer;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 15px 0 0;
 }
 .items .right_column .order_tabs .tab-slider--body .internal_body .delivery .cntr .radio .label {
@@ -2138,7 +2196,6 @@ button:focus {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Open Sans Condensed', sans-serif;
   width: 100%;
   cursor: pointer;
   padding: 5px;
@@ -2163,7 +2220,6 @@ button:focus {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   padding: 5px 50px;
   margin: 0 auto;
@@ -2190,6 +2246,7 @@ button:focus {
   font-size: 25px;
   margin-bottom: 30px;
   font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .order_history .order_history_info,
 .items .right_column .personal_cab .order_history_info,
@@ -2305,7 +2362,6 @@ button:focus {
   margin-right: 20px;
   font-size: 14px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   transition: all 0.5s;
 }
 .items .right_column .order_history form.pc_contact_info button.save:hover,
@@ -2327,7 +2383,6 @@ button:focus {
   padding: 5px 30px;
   font-size: 14px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   transition: all 0.5s;
 }
 .items .right_column .order_history form.pc_contact_info button.cancel:hover,
@@ -2464,7 +2519,6 @@ button:focus {
   border: 1px solid #31AAE2;
   height: 50px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -2513,6 +2567,7 @@ button:focus {
 }
 .items .right_column .order_history_inform .pc_cont_text .oh_title {
   padding-bottom: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .order_history_inform .oh_summ_info .oh_summ {
   padding-bottom: 5px;
@@ -2605,7 +2660,6 @@ button:focus {
   border: 1px solid #31AAE2;
   height: 50px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -2632,6 +2686,7 @@ button:focus {
   font-size: 18px;
   color: #31AAE2;
   margin-bottom: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .status_change .history_change ul li {
   display: flex;
@@ -2647,6 +2702,7 @@ button:focus {
   font-size: 18px;
   color: #31AAE2;
   margin-bottom: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .items .right_column .status_change .payments_var ul li,
 .items .right_column .status_change .delivery_status ul li {
@@ -2760,7 +2816,6 @@ button:focus {
   border: 1px solid #31AAE2;
   height: 50px;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -2784,7 +2839,8 @@ button:focus {
   border: 1px solid #777777;
   border-radius: 10px;
   float: left;
-  padding: 10px 16px;
+  padding: 10px;
+  justify-content: center;
   text-decoration: none;
   margin: 0 5px;
   transition: all 0.5s;
@@ -2874,7 +2930,7 @@ button:focus {
   margin-bottom: 20px;
 }
 .contacts .person_block .label_contacts .phone {
-  font-size: 18px;
+  font-size: 16px;
   color: #2E3537;
   font-weight: 600;
   margin-bottom: 20px;
@@ -3081,6 +3137,7 @@ button:focus {
   font-weight: 300;
   color: #2E3537;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .our_news h2 .blue {
   color: #31AAE2;
@@ -3126,6 +3183,7 @@ button:focus {
 }
 .our_news .news_block .nb_title {
   margin-bottom: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .our_news .news_block .nb_title a {
   font-size: 22px;
@@ -3147,7 +3205,6 @@ button:focus {
   text-align: center;
 }
 .our_news .news_block .goto_news button {
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
   color: #31AAE2;
   background: #ffffff;
@@ -3183,6 +3240,7 @@ button:focus {
 .about_us .our_team_info h2 {
   font-size: 40px;
   margin-bottom: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .about_us .our_team_info h2 span.blue {
   color: #31AAE2;
@@ -3235,6 +3293,7 @@ button:focus {
   font-size: 22px;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .footer .footer_block .fb_text {
   font-size: 13px;
@@ -3275,7 +3334,6 @@ button:focus {
   background: #31AAE2;
   color: #ffffff;
   border: 1px solid #31AAE2;
-  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 12px;
   padding: 2px 20px;
   margin: 0 auto;
@@ -3371,7 +3429,6 @@ button:focus {
   color: #ffffff;
   font-size: 14px;
   padding: 7px 25px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
   margin-right: 100px;
@@ -3442,7 +3499,6 @@ button:focus {
   margin-top: 10px;
   margin: 0 auto;
   margin-bottom: 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -3487,7 +3543,6 @@ button:focus {
   color: #ffffff;
   font-size: 14px;
   padding: 7px 25px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   margin-right: 15px;
   transition: all 0.5s;
@@ -3502,7 +3557,6 @@ button:focus {
   color: #ffffff;
   font-size: 14px;
   padding: 7px 25px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -3528,7 +3582,6 @@ button:focus {
   background: transparent;
   color: #999999;
   font-size: 14px;
-  font-family: 'Open Sans Condensed', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -3640,6 +3693,10 @@ button:focus {
   }
 }
 @media screen and (max-width: 1200px) {
+  .top .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   .menu {
     padding-left: 120px;
     padding-right: 120px;
@@ -3820,6 +3877,10 @@ button:focus {
   }
 }
 @media screen and (max-width: 1024px) {
+  .top .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
   .top .location {
     display: none;
   }
@@ -3871,6 +3932,10 @@ button:focus {
   }
 }
 @media screen and (max-width: 900px) {
+  .top .container {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
   .menu {
     padding-left: 85px;
     padding-right: 85px;
@@ -3918,6 +3983,9 @@ button:focus {
   }
 }
 @media screen and (max-width: 768px) {
+  .top .phones {
+    display: none;
+  }
   .mainslider .item .slider_desc {
     padding: 0 50px;
   }
@@ -4070,6 +4138,10 @@ button:focus {
   }
 }
 @media screen and (max-width: 500px) {
+  .top .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .top .phones {
     display: none;
   }
@@ -4314,6 +4386,10 @@ button:focus {
   }
 }
 @media screen and (max-width: 400px) {
+  .top .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   .items .right_column .item_information .item_info .item_rating .rating_desc {
     font-size: 12px;
   }
