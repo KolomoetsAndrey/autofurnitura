@@ -916,6 +916,8 @@ button:focus {
 
                     .ona_title {
                         a {
+                            font-family: @condensed;
+                            font-weight: 100;
                             font-size: 18px;
                             text-transform: uppercase;
                             text-decoration: none;
@@ -1203,8 +1205,10 @@ button:focus {
                 }
 
                 select {
+                    font-size: 12px;
+
                     option {
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -1218,8 +1222,10 @@ button:focus {
                 }
 
                 select {
+                    font-size: 12px;
+
                     option {
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -1271,29 +1277,32 @@ button:focus {
                         width: 100%;
 
                         .var_name {
-                            font-size: 18px;
+                            font-size: 16px;
                             color: #2E3537;
                             font-weight: 600;
                         }
 
                         .available {
-                            font-size: 18px;
+                            font-size: 16px;
                             color: #777777;
                         }
 
                         .sku {
-                            font-size: 16px;
+                            font-size: 14px;
                             color: #777777;
                             font-weight: 600;
+                            text-align: right;
                         }
 
                         .price {
                             color: #31AAE2;
                             font-size: 20px;
                             font-weight: 600;
+                            text-align: right;
 
                             .old_price {
                                 display: block;
+                                text-align: right;
                                 font-size: 14px;
                                 text-decoration: line-through;
                                 color: #777777;
@@ -1310,6 +1319,7 @@ button:focus {
                             // font-family: @condensed;
                             font-weight: 600;
                             transition: all 0.5s;
+                            margin-left: 5px;
 
                             &:hover {
                                 background: #23ce30;
@@ -1609,7 +1619,7 @@ button:focus {
     
                                 i {
                                     cursor:pointer;
-                                    padding:10px 12px 8px;
+                                    padding: 6px 12px 6px;
                                     background:#fff;
                                     border: 1px solid #d4d4d4;
                                     display:inline-block;
@@ -2706,18 +2716,18 @@ button:focus {
                             width: 100%;
     
                             .var_name {
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: #2E3537;
                                 font-weight: 600;
                             }
     
                             .available {
-                                font-size: 18px;
+                                font-size: 16px;
                                 color: #777777;
                             }
     
                             .sku {
-                                font-size: 16px;
+                                font-size: 14px;
                                 color: #777777;
                                 font-weight: 600;
                             }
@@ -2863,18 +2873,18 @@ button:focus {
                         width: 100%;
     
                         .var_name {
-                            font-size: 18px;
+                            font-size: 16px;
                             color: #2E3537;
                             font-weight: 600;
                         }
     
                         .available {
-                            font-size: 18px;
+                            font-size: 16px;
                             color: #777777;
                         }
     
                         .sku {
-                            font-size: 16px;
+                            font-size: 14px;
                             color: #777777;
                             font-weight: 600;
                         }
@@ -3039,18 +3049,18 @@ button:focus {
                     width: 100%;
 
                     .var_name {
-                        font-size: 18px;
+                        font-size: 16px;
                         color: #2E3537;
                         font-weight: 600;
                     }
 
                     .available {
-                        font-size: 18px;
+                        font-size: 16px;
                         color: #777777;
                     }
 
                     .sku {
-                        font-size: 16px;
+                        font-size: 14px;
                         color: #777777;
                         font-weight: 600;
                     }
@@ -3494,6 +3504,7 @@ button:focus {
 
         .goto_news {
             text-align: center;
+            margin-top: auto;
 
             button {
                 // font-family: @condensed;
@@ -3554,7 +3565,7 @@ button:focus {
 }
 
 .footer {
-    background: #2E3537;
+    background: #30415B;
     padding-top: 80px;
     margin-top: 70px;
 
@@ -3614,7 +3625,7 @@ button:focus {
                 flex-direction: column;
 
                 input {
-                    background: #2E3537;
+                    background: #30415B;
                     border: 1px solid #ffffff82;
                     color: #ffffff82;
                     font-size: 12px;
@@ -3646,8 +3657,9 @@ button:focus {
 
                 a {
                     color: #ffffff;
-                    font-size: 18px;
+                    font-size: 16px;
                     text-decoration: none;
+                    font-family: @condensed;
 
                     &:hover {
                         text-decoration: underline;
@@ -4097,6 +4109,18 @@ button:focus {
 
                             .price {
                                 font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .item_information {
+                .item_info {
+                    .item_variants {
+                        .itemvar {
+                            .info_titles, .info_variants {
+                                width: 30%;
                             }
                         }
                     }
@@ -5104,6 +5128,18 @@ button:focus {
 
                 .history_change, .payments_var, .delivery_status {
                     width: 100%;
+                }
+            }
+
+            .item_information {
+                .item_info {
+                    .item_variants {
+                        .itemvar {
+                            .var_info {
+                                flex-wrap: nowrap;
+                            }
+                        }
+                    }
                 }
             }
         }

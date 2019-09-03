@@ -888,6 +888,8 @@ button:focus {
   margin-bottom: 10px;
 }
 .news .right_column .other_news .on_articles .on_preview .ona_title a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1121,8 +1123,11 @@ button:focus {
 .items .right_column .sorting .sort p {
   margin-right: 10px;
 }
+.items .right_column .sorting .sort select {
+  font-size: 12px;
+}
 .items .right_column .sorting .sort select option {
-  font-size: 14px;
+  font-size: 12px;
 }
 .items .right_column .sorting .brand {
   display: flex;
@@ -1131,8 +1136,11 @@ button:focus {
 .items .right_column .sorting .brand p {
   margin-right: 10px;
 }
+.items .right_column .sorting .brand select {
+  font-size: 12px;
+}
 .items .right_column .sorting .brand select option {
-  font-size: 14px;
+  font-size: 12px;
 }
 .items .right_column .item_card {
   box-sizing: border-box;
@@ -1177,26 +1185,29 @@ button:focus {
   width: 100%;
 }
 .items .right_column .item_card .item_desc .item_vars .var .var_name {
-  font-size: 18px;
+  font-size: 16px;
   color: #2E3537;
   font-weight: 600;
 }
 .items .right_column .item_card .item_desc .item_vars .var .available {
-  font-size: 18px;
+  font-size: 16px;
   color: #777777;
 }
 .items .right_column .item_card .item_desc .item_vars .var .sku {
-  font-size: 16px;
+  font-size: 14px;
   color: #777777;
   font-weight: 600;
+  text-align: right;
 }
 .items .right_column .item_card .item_desc .item_vars .var .price {
   color: #31AAE2;
   font-size: 20px;
   font-weight: 600;
+  text-align: right;
 }
 .items .right_column .item_card .item_desc .item_vars .var .price .old_price {
   display: block;
+  text-align: right;
   font-size: 14px;
   text-decoration: line-through;
   color: #777777;
@@ -1210,6 +1221,7 @@ button:focus {
   cursor: pointer;
   font-weight: 600;
   transition: all 0.5s;
+  margin-left: 5px;
 }
 .items .right_column .item_card .item_desc .item_vars .var button:hover {
   background: #23ce30;
@@ -1456,7 +1468,7 @@ button:focus {
 }
 .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .liked i {
   cursor: pointer;
-  padding: 10px 12px 8px;
+  padding: 6px 12px 6px;
   background: #fff;
   border: 1px solid #d4d4d4;
   display: inline-block;
@@ -2468,7 +2480,7 @@ button:focus {
 .items .right_column .change_pass .item_card .item_desc .item_vars .var .var_name,
 .items .right_column .manager .item_card .item_desc .item_vars .var .var_name,
 .items .right_column .favorites .item_card .item_desc .item_vars .var .var_name {
-  font-size: 18px;
+  font-size: 16px;
   color: #2E3537;
   font-weight: 600;
 }
@@ -2477,7 +2489,7 @@ button:focus {
 .items .right_column .change_pass .item_card .item_desc .item_vars .var .available,
 .items .right_column .manager .item_card .item_desc .item_vars .var .available,
 .items .right_column .favorites .item_card .item_desc .item_vars .var .available {
-  font-size: 18px;
+  font-size: 16px;
   color: #777777;
 }
 .items .right_column .order_history .item_card .item_desc .item_vars .var .sku,
@@ -2485,7 +2497,7 @@ button:focus {
 .items .right_column .change_pass .item_card .item_desc .item_vars .var .sku,
 .items .right_column .manager .item_card .item_desc .item_vars .var .sku,
 .items .right_column .favorites .item_card .item_desc .item_vars .var .sku {
-  font-size: 16px;
+  font-size: 14px;
   color: #777777;
   font-weight: 600;
 }
@@ -2629,16 +2641,16 @@ button:focus {
   width: 100%;
 }
 .items .right_column .item_card .item_desc .item_vars .var .var_name {
-  font-size: 18px;
+  font-size: 16px;
   color: #2E3537;
   font-weight: 600;
 }
 .items .right_column .item_card .item_desc .item_vars .var .available {
-  font-size: 18px;
+  font-size: 16px;
   color: #777777;
 }
 .items .right_column .item_card .item_desc .item_vars .var .sku {
-  font-size: 16px;
+  font-size: 14px;
   color: #777777;
   font-weight: 600;
 }
@@ -2785,16 +2797,16 @@ button:focus {
   width: 100%;
 }
 .brand_information .item_card .item_desc .item_vars .var .var_name {
-  font-size: 18px;
+  font-size: 16px;
   color: #2E3537;
   font-weight: 600;
 }
 .brand_information .item_card .item_desc .item_vars .var .available {
-  font-size: 18px;
+  font-size: 16px;
   color: #777777;
 }
 .brand_information .item_card .item_desc .item_vars .var .sku {
-  font-size: 16px;
+  font-size: 14px;
   color: #777777;
   font-weight: 600;
 }
@@ -3203,6 +3215,7 @@ button:focus {
 }
 .our_news .news_block .goto_news {
   text-align: center;
+  margin-top: auto;
 }
 .our_news .news_block .goto_news button {
   font-size: 16px;
@@ -3263,7 +3276,7 @@ button:focus {
   }
 }
 .footer {
-  background: #2E3537;
+  background: #30415B;
   padding-top: 80px;
   margin-top: 70px;
 }
@@ -3322,7 +3335,7 @@ button:focus {
   flex-direction: column;
 }
 .footer .footer_block .fb_content form input {
-  background: #2E3537;
+  background: #30415B;
   border: 1px solid #ffffff82;
   color: #ffffff82;
   font-size: 12px;
@@ -3349,8 +3362,9 @@ button:focus {
 }
 .footer .footer_block .fb_content .fb_news a {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .footer .footer_block .fb_content .fb_news a:hover {
   text-decoration: underline;
@@ -3666,6 +3680,10 @@ button:focus {
   }
   .items .right_column .item_card .item_desc .item_vars .var .price {
     font-size: 16px;
+  }
+  .items .right_column .item_information .item_info .item_variants .itemvar .info_titles,
+  .items .right_column .item_information .item_info .item_variants .itemvar .info_variants {
+    width: 30%;
   }
   .items .right_column .favorites .item_card .item_desc .item_vars .var .var_name {
     font-size: 14px;
@@ -4275,6 +4293,9 @@ button:focus {
   .items .right_column .status_change .payments_var,
   .items .right_column .status_change .delivery_status {
     width: 100%;
+  }
+  .items .right_column .item_information .item_info .item_variants .itemvar .var_info {
+    flex-wrap: nowrap;
   }
   .brand_information .pagination .pagi {
     font-size: 10px;
