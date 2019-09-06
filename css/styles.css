@@ -361,7 +361,7 @@ button:focus {
   display: block;
   color: #2E3537;
   text-align: center;
-  padding: 27px 5px;
+  padding: 27px 10px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -2929,7 +2929,7 @@ button:focus {
   height: auto;
 }
 .contacts .person_block .profession .prof {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 .contacts .person_block .label_contacts {
@@ -2937,7 +2937,7 @@ button:focus {
   text-align: center;
 }
 .contacts .person_block .label_contacts .name {
-  font-size: 22px;
+  font-size: 18px;
   color: #777777;
   margin-bottom: 20px;
 }
@@ -3046,6 +3046,26 @@ button:focus {
   text-align: center;
 }
 .contacts .adress_block .adress_desc .adress {
+  font-size: 18px;
+  color: #2E3537;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contacts .adress_block .tel_desc {
+  margin-top: auto;
+  text-align: center;
+}
+.contacts .adress_block .tel_desc .tel {
+  font-size: 18px;
+  color: #2E3537;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contacts .adress_block .mail_desc {
+  margin-top: auto;
+  text-align: center;
+}
+.contacts .adress_block .mail_desc .mail {
   font-size: 18px;
   color: #2E3537;
   font-weight: 600;
@@ -3274,6 +3294,9 @@ button:focus {
   .about_us .our_team_photo {
     width: calc(100% - 10px);
   }
+}
+.about_us .our_team_photo img {
+  margin-top: 15px;
 }
 .footer {
   background: #30415B;
