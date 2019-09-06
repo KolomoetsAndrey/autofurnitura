@@ -1116,9 +1116,13 @@ button:focus {
   width: 100%;
   margin-bottom: 45px;
 }
+.items .right_column .sorting .showing {
+  font-size: 12px;
+}
 .items .right_column .sorting .sort {
   display: flex;
   align-items: center;
+  font-size: 12px;
 }
 .items .right_column .sorting .sort p {
   margin-right: 10px;
@@ -1132,6 +1136,7 @@ button:focus {
 .items .right_column .sorting .brand {
   display: flex;
   align-items: center;
+  font-size: 12px;
 }
 .items .right_column .sorting .brand p {
   margin-right: 10px;
