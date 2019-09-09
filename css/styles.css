@@ -1860,11 +1860,15 @@ button:focus {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  flex-wrap: wrap;
 }
 .items .right_column .cart_item .cart_item_img {
   max-width: 160px;
   margin-right: 5px;
   border: 1px solid #777777;
+}
+.items .right_column .cart_item .cart_item_name {
+  width: 38%;
 }
 .items .right_column .cart_item .cart_item_name .cart_item_sku {
   font-size: 14px;
@@ -1943,6 +1947,14 @@ button:focus {
 .items .right_column .cart_item .close_btn svg {
   width: 25px;
   height: auto;
+}
+.items .right_column .cart_item .prompt {
+  width: 100%;
+  display: block;
+}
+.items .right_column .cart_item .prompt .prompt_text {
+  font-size: 14px;
+  padding: 10px;
 }
 .items .right_column .sum_price {
   border-bottom: 1px solid #777777;

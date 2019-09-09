@@ -2102,6 +2102,7 @@ button:focus {
             align-items: center;
             justify-content: space-between;
             position: relative;
+            flex-wrap: wrap;
 
             .cart_item_img {
                 max-width: 160px;
@@ -2110,6 +2111,7 @@ button:focus {
             }
 
             .cart_item_name {
+                width: 38%;
 
                 .cart_item_sku {
                     font-size: 14px;
@@ -2206,6 +2208,16 @@ button:focus {
                 svg {
                     width: 25px;
                     height: auto;
+                }
+            }
+
+            .prompt {
+                width: 100%;
+                display: block;
+
+                .prompt_text {
+                    font-size: 14px;
+                    padding: 10px;
                 }
             }
         }
