@@ -3660,6 +3660,108 @@ button:focus {
 .fancybox-slide--html .fancybox-close-small:hover {
   color: #31AAE2;
 }
+.auth .log_auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.auth .log_auth .auth_logo {
+  height: auto;
+  width: 300px;
+  margin-bottom: 50px;
+}
+.auth .log_auth input {
+  width: 330px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  background: #dddddd;
+  color: #555555;
+}
+.auth .log_auth .enter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.auth .log_auth .enter li {
+  display: inline-flex;
+}
+.auth .log_auth .enter .login {
+  border: 1px solid #31AAE2;
+  background: #31AAE2;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 7px 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-right: 100px;
+}
+.auth .log_auth .enter .container {
+  position: relative;
+  padding-right: 0;
+  padding-left: 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 14px;
+  height: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.auth .log_auth .enter .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.auth .log_auth .enter .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #dddddd;
+}
+.auth .log_auth .enter .container:hover input ~ .checkmark {
+  background-color: #dddddd;
+}
+.auth .log_auth .enter .container input:checked ~ .checkmark {
+  background-color: #31AAE2;
+}
+.auth .log_auth .enter .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.auth .log_auth .enter .container input:checked ~ .checkmark:after {
+  display: block;
+}
+.auth .log_auth .enter .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: 1px solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.auth .log_auth .remember {
+  text-align: left;
+  width: 330px;
+}
+.auth .log_auth .remember a {
+  font-size: 12px;
+  color: #2E3537;
+  text-decoration: none;
+}
 @media screen and (max-width: 1400px) {
   .top .location {
     font-size: 12px;
@@ -4444,6 +4546,18 @@ button:focus {
   }
   .animated-modal form .remember li {
     text-align: center;
+  }
+  .auth .log_auth input {
+    width: 90%;
+  }
+  .auth .log_auth .enter {
+    width: 90%;
+  }
+  .auth .log_auth .remember {
+    width: 90%;
+  }
+  .auth .log_auth .enter .login {
+    margin-right: 25px;
   }
 }
 @media screen and (max-width: 400px) {
