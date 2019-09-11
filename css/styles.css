@@ -3686,9 +3686,7 @@ button:focus {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
-}
-.auth .log_auth .enter li {
-  display: inline-flex;
+  width: 330px;
 }
 .auth .log_auth .enter .login {
   border: 1px solid #31AAE2;
@@ -3698,12 +3696,19 @@ button:focus {
   padding: 7px 25px;
   cursor: pointer;
   transition: all 0.5s;
-  margin-right: 100px;
+  display: block;
+  width: 100%;
+}
+.auth .log_auth .enter .check_cont {
+  width: 70%;
+  margin-left: 50px;
 }
 .auth .log_auth .enter .container {
   position: relative;
+  width: 100%;
+  text-align: right;
   padding-right: 0;
-  padding-left: 30px;
+  padding-left: 0;
   margin-bottom: 0;
   cursor: pointer;
   font-size: 14px;
@@ -3712,6 +3717,8 @@ button:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: block;
+  top: -4px;
 }
 .auth .log_auth .enter .container input {
   position: absolute;
@@ -3722,7 +3729,7 @@ button:focus {
 }
 .auth .log_auth .enter .checkmark {
   position: absolute;
-  top: 0;
+  top: 5px;
   left: 0;
   height: 25px;
   width: 25px;
@@ -4552,12 +4559,19 @@ button:focus {
   }
   .auth .log_auth .enter {
     width: 90%;
+    flex-wrap: wrap;
   }
   .auth .log_auth .remember {
     width: 90%;
   }
-  .auth .log_auth .enter .login {
-    margin-right: 25px;
+  .auth .log_auth .enter .container {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .auth .log_auth .enter .check_cont {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 400px) {
