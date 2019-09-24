@@ -209,8 +209,8 @@ button:focus {
 }
 @media screen and (max-width: 320px) {
   .container {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 .row {
@@ -1292,6 +1292,49 @@ button:focus {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #CCCCCC;
+}
+.items .right_column .item_information .item_info .titles_inform {
+  width: 65%;
+  font-size: 18px;
+}
+.items .right_column .item_information .item_info .titles_inform .title_value {
+  display: flex;
+  justify-content: space-between;
+}
+.items .right_column .item_information .item_info .titles_inform .title_value .t_name {
+  width: 49%;
+  color: #CCCCCC;
+}
+.items .right_column .item_information .item_info .titles_inform .title_value .available {
+  color: #31AAE2;
+}
+.items .right_column .item_information .item_info .titles_inform .title_value .t_value {
+  width: 49%;
+  word-break: break-all;
+}
+.items .right_column .item_information .item_info .titles_inform .title_value .material {
+  font-weight: 600;
+}
+.items .right_column .item_information .item_info .price_inform {
+  width: 35%;
+  text-align: right;
+  font-size: 18px;
+}
+.items .right_column .item_information .item_info .price_inform .old_price {
+  display: block;
+  font-size: 16px;
+  color: #999999;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+.items .right_column .item_information .item_info .price_inform .real_price {
+  font-size: 25px;
+  color: #31AAE2;
+  font-weight: 600;
+}
+.items .right_column .item_information .item_info .price_inform .comment {
+  font-size: 18px;
+  color: #CCCCCC;
 }
 .items .right_column .item_information .item_info .item_itfo_title {
   font-size: 30px;
@@ -2615,6 +2658,9 @@ button:focus {
   display: flex;
   justify-content: space-between;
 }
+.items .right_column .order_history_inform .oh_summ_info .oh_date .status {
+  margin-left: 10px;
+}
 .items .right_column .item_card {
   box-sizing: border-box;
   word-wrap: break-word;
@@ -3665,7 +3711,7 @@ button:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .auth .log_auth .auth_logo {
   height: auto;
@@ -3833,6 +3879,9 @@ button:focus {
   .items .right_column .item_information .item_info .item_variants .itemvar .info_titles,
   .items .right_column .item_information .item_info .item_variants .itemvar .info_variants {
     width: 30%;
+  }
+  .items .right_column .item_information .item_info .titles_inform {
+    font-size: 16px;
   }
   .items .right_column .favorites .item_card .item_desc .item_vars .var .var_name {
     font-size: 14px;
@@ -4142,6 +4191,9 @@ button:focus {
     padding-left: 0;
     padding-right: 0;
   }
+  .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byit {
+    padding: 7px 30px;
+  }
   .ourbrands .brands_block img {
     max-height: 68px;
   }
@@ -4249,6 +4301,21 @@ button:focus {
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .liked i {
     padding: 5px 10px 10px;
+  }
+  .items .right_column .item_information .item_info .item_itfo_title {
+    text-align: center;
+  }
+  .items .right_column .item_information .item_info .titles_inform {
+    font-size: 12px;
+  }
+  .items .right_column .item_information .item_info .price_inform .old_price {
+    font-size: 14px;
+  }
+  .items .right_column .item_information .item_info .price_inform .real_price {
+    font-size: 20px;
+  }
+  .items .right_column .item_information .item_info .price_inform .comment {
+    font-size: 12px;
   }
   .items .right_column .cart_item {
     flex-wrap: wrap;
@@ -4592,10 +4659,10 @@ button:focus {
     font-size: 14px;
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byit {
-    padding: 5px 10px;
+    padding: 5px;
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .byoneclick {
-    padding: 5px 10px;
+    padding: 5px;
   }
   .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .liked i {
     padding: 5px;

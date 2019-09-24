@@ -111,6 +111,8 @@ button:focus {
     .wrapper();
 }
 
+
+
 .row {
     .row-flex();
 }
@@ -1406,6 +1408,60 @@ button:focus {
                     padding-bottom: 10px;
                     margin-bottom: 10px;
                     border-bottom: 1px solid #CCCCCC;
+                }
+
+                .titles_inform {
+                    width: 65%;
+                    font-size: 18px;
+
+                    .title_value {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .t_name {
+                            width: 49%;
+                            color: #CCCCCC;
+                        }
+
+                        .available {
+                            color: #31AAE2;
+                        }
+
+                        .t_value {
+                            width: 49%;
+                            word-break: break-all;
+                        }
+
+                        .material {
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .price_inform {
+                    width: 35%;
+                    text-align: right;
+                    font-size: 18px;
+
+                    .old_price {
+                        display: block;
+                        font-size: 16px;
+                        color: #999999;
+                        text-decoration: line-through;
+                        font-weight: normal;
+                    }
+
+                    .real_price {
+                        font-size: 25px;
+                        color: #31AAE2;
+                        font-weight: 600;
+                    }
+
+                    .comment {
+                        font-size: 18px;
+                        color: #CCCCCC;
+                    }
+
                 }
 
                 .item_itfo_title {
@@ -2841,6 +2897,10 @@ button:focus {
                     font-size: 16px;
                     display: flex;
                     justify-content: space-between;
+
+                    .status {
+                        margin-left: 10px;
+                    }
                 }
             }
         }
@@ -4040,7 +4100,7 @@ button:focus {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 3%;
 
         .auth_logo {
             height: auto;
@@ -4297,6 +4357,10 @@ button:focus {
                                 width: 30%;
                             }
                         }
+                    }
+
+                    .titles_inform {
+                        font-size: 16px;
                     }
                 }
             }
@@ -4782,6 +4846,20 @@ button:focus {
                 padding-left: 0;
                 padding-right: 0;
             }
+
+            .item_information {
+                .item_info {
+                    .item_variants {
+                        .itemvar {
+                            .buybtns {
+                                .byit {
+                                    padding: 7px 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -4992,6 +5070,28 @@ button:focus {
                                     }
                                 }
                             }
+                        }
+                    }
+
+                    .item_itfo_title {
+                        text-align: center;
+                    }
+
+                    .titles_inform {
+                        font-size: 12px;
+                    }
+
+                    .price_inform {
+                        .old_price {
+                            font-size: 14px;
+                        }
+
+                        .real_price {
+                            font-size: 20px;
+                        }
+
+                        .comment {
+                            font-size: 12px;
                         }
                     }
                 }
@@ -5543,11 +5643,11 @@ button:focus {
 
                             .buybtns {
                                 .byit {
-                                    padding: 5px 10px;
+                                    padding: 5px;
                                 }
 
                                 .byoneclick {
-                                    padding: 5px 10px;
+                                    padding: 5px;
                                 }
 
                                 .liked {
