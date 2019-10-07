@@ -321,6 +321,7 @@ button:focus {
                 a {
                     text-transform: inherit;
                     font-weight: normal;
+                    text-align: center;
                 }
             }
         }
@@ -427,11 +428,13 @@ button:focus {
         .slider_desc {
             position: absolute;
             padding: 0 310px;
+            font-family: @condensed;
 
             .slider_name {
                 margin-bottom: 15px;
                 font-size: 70px;
                 color: #ffffff;
+                font-weight: 400;
                 text-transform: uppercase;
             }
     
@@ -957,6 +960,11 @@ button:focus {
     }
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .items {
     .row {
         justify-content: center;
@@ -965,6 +973,7 @@ button:focus {
     .left_column {
         .col();
         width: 25%;
+        height: max-content;
 
         .liked {
             text-align: center;
@@ -3034,10 +3043,29 @@ button:focus {
                 }
             }
 
-            .payments_var, .delivery_status {
+            .payments_var {
                 padding: 20px;
 
-                .history_title {
+                .payments_title {
+                    font-size: 18px;
+                    color: #31AAE2;
+                    margin-bottom: 40px;
+                    font-family: @condensed;
+                }
+
+                ul {
+                    li {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .delivery_status {
+                padding: 20px;
+
+                .delivery_title {
                     font-size: 18px;
                     color: #31AAE2;
                     margin-bottom: 40px;
@@ -3075,6 +3103,11 @@ button:focus {
             float: left;
             margin: 0 20px 20px 0;
             max-width: 360px;
+        }
+
+        p {
+            display: block;
+            margin-bottom: 10px;
         }
     }
 
@@ -4054,17 +4087,20 @@ button:focus {
         }
 
         .goto_shoping {
-            margin-top: 10px;
+            margin-top: 20px;
             border: none;
             background: transparent;
-            color: #999999;
+            color: #31AAE2;
+            border: 1px solid #31AAE2;
+            padding: 5px 10px;
             font-size: 14px;
             // font-family: @condensed;
             cursor: pointer;
             transition: all 0.5s;
             
             &:hover {
-                color: #31AAE2;
+                color: #ffffff;
+                background: #31AAE2;
             }
         }
     }
@@ -5407,6 +5443,10 @@ button:focus {
 
             .item_information {
                 .item_info {
+                    .titles_inform {
+                        font-size: 10px;
+                    }
+
                     .item_variants {
                         .itemvar {
                             .var_info {
@@ -5542,6 +5582,12 @@ button:focus {
 
     .footer {
         padding-top: 40px;
+
+        .footer_block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .animated-modal {

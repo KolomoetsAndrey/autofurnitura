@@ -380,6 +380,7 @@ button:focus {
 .menu .display_nav .dropdown .sub-menu-lists a {
   text-transform: inherit;
   font-weight: normal;
+  text-align: center;
 }
 .menu .display_nav .dropdown .dropbtn {
   font-size: 14px;
@@ -469,11 +470,13 @@ button:focus {
 .mainslider .item .slider_desc {
   position: absolute;
   padding: 0 310px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .mainslider .item .slider_desc .slider_name {
   margin-bottom: 15px;
   font-size: 70px;
   color: #ffffff;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .mainslider .item .slider_desc .slider_text {
@@ -913,6 +916,10 @@ button:focus {
   height: auto;
   margin-right: 5px;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+}
 .items .row {
   justify-content: center;
 }
@@ -922,6 +929,7 @@ button:focus {
   margin-left: 5px;
   margin-right: 5px;
   width: 25%;
+  height: max-content;
 }
 .items .left_column .liked {
   text-align: center;
@@ -2768,18 +2776,29 @@ button:focus {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.items .right_column .status_change .payments_var,
-.items .right_column .status_change .delivery_status {
+.items .right_column .status_change .payments_var {
   padding: 20px;
 }
-.items .right_column .status_change .payments_var .history_title,
-.items .right_column .status_change .delivery_status .history_title {
+.items .right_column .status_change .payments_var .payments_title {
   font-size: 18px;
   color: #31AAE2;
   margin-bottom: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.items .right_column .status_change .payments_var ul li,
+.items .right_column .status_change .payments_var ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.items .right_column .status_change .delivery_status {
+  padding: 20px;
+}
+.items .right_column .status_change .delivery_status .delivery_title {
+  font-size: 18px;
+  color: #31AAE2;
+  margin-bottom: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .items .right_column .status_change .delivery_status ul li {
   display: flex;
   justify-content: space-between;
@@ -2801,6 +2820,10 @@ button:focus {
   float: left;
   margin: 0 20px 20px 0;
   max-width: 360px;
+}
+.brand_information .brand_description p {
+  display: block;
+  margin-bottom: 10px;
 }
 .brand_information .item_card {
   box-sizing: border-box;
@@ -3677,16 +3700,19 @@ button:focus {
   text-align: center;
 }
 .animated-modal .byitmodal .goto_shoping {
-  margin-top: 10px;
+  margin-top: 20px;
   border: none;
   background: transparent;
-  color: #999999;
+  color: #31AAE2;
+  border: 1px solid #31AAE2;
+  padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
   transition: all 0.5s;
 }
 .animated-modal .byitmodal .goto_shoping:hover {
-  color: #31AAE2;
+  color: #ffffff;
+  background: #31AAE2;
 }
 .fancybox-slide--current .animated-modal {
   -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.15);
@@ -4510,6 +4536,9 @@ button:focus {
   .items .right_column .status_change .delivery_status {
     width: 100%;
   }
+  .items .right_column .item_information .item_info .titles_inform {
+    font-size: 10px;
+  }
   .items .right_column .item_information .item_info .item_variants .itemvar .var_info {
     flex-wrap: nowrap;
   }
@@ -4599,6 +4628,11 @@ button:focus {
   }
   .footer {
     padding-top: 40px;
+  }
+  .footer .footer_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .animated-modal .full_cart .full_cart_btns li {
     display: block;

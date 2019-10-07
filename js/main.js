@@ -185,3 +185,10 @@ $(document).ready(function(){
     });
 });
 //End PlusMinus
+
+// Titles Height
+$(document).ready(function(){
+    var autoHeight = $(".history_title").height();
+    $(".payments_title").height(autoHeight);
+    $(".delivery_title").height(autoHeight);
+});
