@@ -2764,6 +2764,7 @@ button:focus {
 }
 .items .right_column .status_change .history_change {
   padding: 20px;
+  width: 40%;
 }
 .items .right_column .status_change .history_change .history_title {
   font-size: 18px;
@@ -2778,6 +2779,7 @@ button:focus {
 }
 .items .right_column .status_change .payments_var {
   padding: 20px;
+  width: 20%;
 }
 .items .right_column .status_change .payments_var .payments_title {
   font-size: 18px;
@@ -2792,6 +2794,7 @@ button:focus {
 }
 .items .right_column .status_change .delivery_status {
   padding: 20px;
+  width: 40%;
 }
 .items .right_column .status_change .delivery_status .delivery_title {
   font-size: 18px;
