@@ -1246,6 +1246,11 @@ button:focus {
 .items .right_column .item_card .item_desc .item_vars .var button p {
   color: #ffffff;
 }
+.items .right_column .prodSlider .owl-item .item .item_card {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
 .items .right_column .pagination {
   margin-top: 25px;
 }
@@ -1529,7 +1534,7 @@ button:focus {
   border: 1px solid #d4d4d4;
   display: inline-block;
   color: #aaaaaa;
-  transition: .2s;
+  transition: 0.2s;
   font-size: 20px;
 }
 .items .right_column .item_information .item_info .item_variants .itemvar .buybtns .liked i:hover {
@@ -2114,7 +2119,7 @@ button:focus {
 }
 .items .right_column .order_tabs .tab-slider--body .internal_body .payments .cntr {
   position: absolute;
-  top: calc(40%);
+  top: calc(50% - 10px);
   left: 0;
   width: 100%;
   display: flex;
@@ -2188,7 +2193,7 @@ button:focus {
 }
 .items .right_column .order_tabs .tab-slider--body .internal_body .delivery .cntr {
   position: absolute;
-  top: calc(40%);
+  top: calc(50% - 10px);
   left: 0;
   width: 100%;
   display: flex;
@@ -3724,10 +3729,10 @@ button:focus {
   opacity: 1;
 }
 .fancybox-slide--current .animated-modal h2 {
-  transition-delay: .1s;
+  transition-delay: 0.1s;
 }
 .fancybox-slide--current .animated-modal p {
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 .fancybox-slide--html .fancybox-close-small {
   transition: all 0.5s;

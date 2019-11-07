@@ -114,6 +114,33 @@ $(document).ready(function(){
 });
 //End Brands Slider
 
+//Product Slider
+$(document).ready(function(){
+    $('.prodSlider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            900:{
+                items:2
+            },
+            1200:{
+                items:3
+            }
+        }
+    });
+});
+// End Product Slider
+
 // Searching
 $(document).ready(function() {
     $(".searching button").click(function() {
