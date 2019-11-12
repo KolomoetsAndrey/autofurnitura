@@ -1356,13 +1356,33 @@ button:focus {
             }
         }
 
+        .product_slider {
+            margin-top: 20px;
+
+            .ps_title {
+                font-size: 24px;
+                color: #2E3537;
+                padding: 10px 0;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+        }
+
         .prodSlider {
             .owl-item {
                 .item {
+
                     .item_card {
                         display: flex;
-                        width: 100%;
+                        flex-direction: column;
+                        width: 99%;
+                        height: 100%;
                         margin: 10px 0;
+
+                        .item_desc {
+                            margin-top: auto;
+                        }
                     }
                 }
             }

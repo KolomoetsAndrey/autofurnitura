@@ -1246,10 +1246,26 @@ button:focus {
 .items .right_column .item_card .item_desc .item_vars .var button p {
   color: #ffffff;
 }
+.items .right_column .product_slider {
+  margin-top: 20px;
+}
+.items .right_column .product_slider .ps_title {
+  font-size: 24px;
+  color: #2E3537;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .items .right_column .prodSlider .owl-item .item .item_card {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 99%;
+  height: 100%;
   margin: 10px 0;
+}
+.items .right_column .prodSlider .owl-item .item .item_card .item_desc {
+  margin-top: auto;
 }
 .items .right_column .pagination {
   margin-top: 25px;
