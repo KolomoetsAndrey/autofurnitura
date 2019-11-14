@@ -117,7 +117,7 @@ $(document).ready(function(){
 //Product Slider
 $(document).ready(function(){
     $('.prodSlider').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
         nav:false,
         autoplay: true,
